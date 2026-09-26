@@ -1,0 +1,1650 @@
+[
+ {
+  "lens": "unfair_advantage",
+  "shortlist": [
+   {
+    "name": "Oblique Pro: UXP-first и калибровки Figma Glass",
+    "is_new": false,
+    "candidate_refs": [
+     33,
+     47,
+     54,
+     66,
+     69,
+     71
+    ],
+    "one_liner": "Oblique 2: первая UXP-нативная версия моста Figma→AE к бете UXP в AE (ноябрь 2026). Базовый перенос бесплатный, платный слой — точное стекло, блюры, тени и ключи Figma Motion с запеканием пружин.",
+    "type": "A",
+    "format": "Апгрейд существующего листинга на aescripts. Lite бесплатно (слои, auto-layout), Pro $69–89 разово, студийная floating-лицензия $199–299, платный мажорный апгрейд раз в 2 года (модель Plexus и GEOlayers). MCP/skill-режим бесплатно, только как канал.",
+    "buyer_and_pain": "UI-моушн-дизайнеры и студии, делающие промо SaaS и приложений. Стекло, background blur, варианты компонентов и анимация Figma Motion приходят в AE сломанными. Студии боятся строить пайплайн на CEP-панелях: CEP выключат по умолчанию в 12.2028.",
+    "why_it_wins": "Ров не в коде: его копируют 16+ бесплатных мостов. Защита держится на трёх вещах: (1) библиотека калибровок «эффект Figma → стек AE», собранная глазом практика; (2) статус UXP-native раньше клонов на CEP (LazyLord, FAE, figma-ae-bridge); (3) доверие и поддержка. Канал уже есть: листинг и покупатели на aescripts. Бесплатный lite лишает клоны аргумента «бесплатно» и растит email-лист для остальных продуктов портфеля.",
+    "key_evidence": "График UXP: бета в AE к 11.2026, CEP выключен по умолчанию в 12.2028, удалён в 12.2029 (https://blog.developer.adobe.com/en/publish/2026/09/investing-in-the-future-of-creative-cloud-extensibility-uxp-comes-to-our-flagship-applications, 2026-09). Репозиторий документации AdobeDocs/uxp-after-effects создан 2026-09-23 (https://github.com/AdobeDocs/uxp-after-effects). Plugin API читает ключи Motion (Update 130: https://developers.figma.com/docs/plugins/updates/2026/06/23/version-1-update-130/, 2026-06-23). В allowlist есть REFRACTION_*, SPECULAR_*, CHROMATIC_ABERRATION (https://raw.githubusercontent.com/figma/mcp-server-guide/main/skills/figma-use-motion/references/motion-patterns.md, 2026-09-26). Нативного background blur в AE нет, идея висит в Adobe Ideas (https://community.adobe.com/ideas/add-native-background-blur-effect-for-layers-like-figma-s-background-1546738). Спрос подтверждает сам поток клонов: 16+ open-source мостов за 12 мес., LazyLord «free forever» (https://github.com/raisulsohan/LazyLord, 2026-09-16).",
+    "main_risk": "Выручку можно собирать 12–18 месяцев. Шаблоны Bolt UXP и aescripts UXP Framework переведут клоны на UXP за недели. UXLink уже переносит Figma Motion. Adobe может сделать нативный background blur.",
+    "prelim_scores": {
+     "expertise": 5,
+     "demand": 4,
+     "freeness": 1,
+     "clone": 2,
+     "platform": 1,
+     "speed": 4,
+     "support": 3,
+     "unit_econ": 4,
+     "channels": 4,
+     "payments_reg": 5,
+     "viability": 2
+    }
+   },
+   {
+    "name": "UXP Rescue Desk: перенос CEP-панелей на UXP под ключ",
+    "is_new": false,
+    "candidate_refs": [
+     19,
+     14
+    ],
+    "one_liner": "Продуктизированная услуга: CEP- и ExtendScript-панели AE и Premiere переписываются на UXP за фиксированную цену. Клиенты — инди-авторы aescripts и студии с внутренними скриптами. К порту прилагается подписка «гарантия совместимости до 2029».",
+    "type": "A",
+    "format": "Аудит $300, порт $1 500–6 000 за панель, подписка на совместимость $49–149/мес. Код пишет Claude Code по методике, которую основатель выработал на миграции Oblique. Тесты по чек-листу гоняет подрядчик-QA, приёмку в AE делает основатель. Побочная линия: поддерживаемые «наследники» заброшенных open-source инструментов на aescripts по $15–39 (с соблюдением лицензий).",
+    "buyer_and_pain": "Первая группа — авторы старых панелей на aescripts, которые давно не трогали свой код. Вторая — студии, у которых внутренние CEP-панели делают рендер, переименование, импорт и связь с серверами. В UXP нет Node.js-бэкенда и вызова внешних бинарников, поэтому миграция — это переписывание, а не конвертация. Дедлайн задан графиком Adobe.",
+    "why_it_wins": "Основатель проходит миграцию Oblique одним из первых и продаёт уже отработанный процесс. Он свой среди авторов aescripts и понимает пользователя AE. Конкуренты — дорогие универсальные разработчики (Hyper Brew, Digital Anarchy, агентства). Окно 2026–2029 гарантировано графиком Adobe. Каналы: авторы aescripts, Pipeline Radar, форумы Adobe.",
+    "key_evidence": "DIGITAL PRODUCTION о Digital Anarchy: «большинство авторов этих CEP-панелей ушли на пенсию, устали или забыли, что делали», студии держат на CEP переименование, ингест и экспорт (https://digitalproduction.com/2026/09/09/digital-anarchy-for-the-adobe-uxp-rewrite/, 2026-09-09). Hyper Brew продаёт двухнедельный аудит миграции (https://hyperbrew.co/uxp/, 2026). Photoshop перестаёт принимать CEP в Marketplace в 03.2027, AE — в 12.2028 (блог Adobe, 2026-09). Официальный гайд миграции: https://github.com/Adobe-CEP/CEP-Resources/tree/master/UXP-Migration-Guide. AEUX заархивирован (https://github.com/google/AEUX/releases, 2025-06-21).",
+    "main_risk": "Основатель не пишет код и при этом отвечает за чужой: ошибки порта бьют по репутации. AI удешевляет порт и для самих авторов. Adobe может выпустить автоконвертер. В AE-UXP на старте нет части API, и часть панелей до 2027–2028 перенести нельзя.",
+    "prelim_scores": {
+     "expertise": 3,
+     "demand": 3,
+     "freeness": 3,
+     "clone": 3,
+     "platform": 3,
+     "speed": 3,
+     "support": 2,
+     "unit_econ": 4,
+     "channels": 3,
+     "payments_reg": 4,
+     "viability": 3
+    }
+   },
+   {
+    "name": "Take Ledger: учёт AI-тейков, стоимости и раскрытия AI",
+    "is_new": false,
+    "candidate_refs": [
+     93,
+     42,
+     94,
+     12,
+     13
+    ],
+    "one_liner": "Журнал, общий для всех вендоров: шот → все генерации из Higgsfield, Magnific, Kling, Veo и Runway → цена, статус, селекты. На выходе автоматический AI-use-лог и клиентский отчёт о раскрытии по ст. 50 AI Act.",
+    "type": "A",
+    "format": "UXP-панель AE/Premiere и веб-кабинет. MVP обходится без API: перетаскивание файлов, чтение метаданных и C2PA, теги. Цена $19–39 за место в месяц, студия $99–199/мес через Paddle (продукт не генерирует контент, поэтому разрешён). Бесплатный одиночный режим на aescripts работает как воронка.",
+    "buyer_and_pain": "AI-гибридные студии и агентства на 2–30 человек. Сотни и тысячи генераций разбросаны по 3–6 сервисам, цена готового клипа неизвестна. Юристы бренда спрашивают, чем это сделано и можно ли использовать в ЕС. Сейчас всё держится на таблицах и соглашениях о папках.",
+    "why_it_wins": "Продукт нейтрален к вендорам: Magnific Spaces, Higgsfield и Firefly Boards видят только собственные генерации. Защиту дают накопленная история проектов и затрат (уходить дорого) и база лицензий моделей (см. License Atlas). Основатель сам ведёт такие проекты для брендов и знает, какие поля реально запрашивают клиенты. Каналы: база Oblique, aescripts, r/MotionDesign.",
+    "key_evidence": "«Специализированного инструмента для версионирования AI-тейков не найдено» (https://github.com/DCCA/higgs-workbench/blob/main/docs/pesquisa-2026-08/04-pipelines.md, 2026-08). Поиск 2026-09-26 тоже не нашёл трекера генераций и происхождения поверх всех платформ. Чек-лист по ст. 50 для видеомонтажёров советует вести AI-use-лог по каждой значимой операции (https://www.vidio.ai/blog/article/eu-ai-act-article-50-video-editor-ai-assisted-commercials-checklist, 2026). Масштаб генераций: Coca-Cola — 70 000+ клипов (https://www.forbes.com/sites/danidiplacido/2025/11/04/coca-cola-sparks-backlash-with-ai-generated-christmas-ad-again/, 2025-11-04). 58% креативщиков скрывали AI от клиента (https://elements.envato.com/learn/ai-trend-report, 2025-11-11). Юрист клиента отклонил сервис после проверки AI-условий (https://www.reddit.com/r/MotionDesign/comments/1rx7ajr/followup_i_posted_about_my_frameio_alternative_a/, 2026).",
+    "main_risk": "Студии могут остаться на Notion и Airtable. Интеграции ломаются при смене API: Sora API закрыт 2026-09-24. Adobe Firefly как мультимодельный хаб может закрыть учёт для тех, кто генерирует внутри Adobe.",
+    "prelim_scores": {
+     "expertise": 5,
+     "demand": 3,
+     "freeness": 4,
+     "clone": 3,
+     "platform": 3,
+     "speed": 3,
+     "support": 2,
+     "unit_econ": 4,
+     "channels": 3,
+     "payments_reg": 4,
+     "viability": 4
+    }
+   },
+   {
+    "name": "Versioning Desk: мастер AE → 20–60 версий за 72 часа",
+    "is_new": false,
+    "candidate_refs": [
+     36,
+     97,
+     5,
+     9
+    ],
+    "one_liner": "Продуктизированная услуга: мастер-проект AE и таблица превращаются во все соцформаты, языки, офферы и DOOH-спеки за 48–72 часа с QC-отчётом. Исполняет обученный оператор-подрядчик на внутреннем конвейере основателя.",
+    "type": "AB",
+    "format": "$15–40 за версию, пакеты от $500, ретейнер $1–3 тыс./мес для студий. Внутри — панель на aerender/nexrender (позже её можно продавать на aescripts за $99–149) и оператор в ЮВА. Основатель делает выборочную приёмку по чек-листу.",
+    "buyer_and_pain": "Студии на 1–20 человек, агентства и in-house-команды: ресайз и версии съедают время старших дизайнеров, а Meta Andromeda требует разнообразия креативов. Plainly за $69–649/мес продаёт софт и render-минуты, но не руки и не вкус.",
+    "why_it_wins": "Защита — не код, а качество адаптации уровня моушн-дизайнера: перетайминг, safe zones, перенос текста, геометрия DOOH из Atlas. К этому добавляются отношения со студиями. Работу можно делегировать: процесс описан чек-листами, оператор в ЮВА стоит недорого. Каналы: клиенты-студии основателя, база Oblique, LinkedIn.",
+    "key_evidence": "Тарифы Plainly — $69/134/259/649 в месяц за 50–600 render-минут (https://www.capterra.com/p/10026817/Plainly/, 2026). Nexrender — от €99/мес, Templater — от $67,50 (поток demand_scout, 2026). Bannerbear: ~$991 тыс. выручки при 596 клиентах в 2024 году (конкурентный разбор, поток motion_industry). Через генеративные инструменты Meta рекламодатели создали 15+ млн объявлений за месяц (https://engineering.fb.com/2024/12/02/production-engineering/meta-andromeda-advantage-automation-next-gen-personalized-ads-retrieval-engine/). Open-source CSV-конвейеров пакетного рендера AE с 06.2025 — 0 репозиториев (GitHub, 2026-09-26).",
+    "main_risk": "Рекламные платформы, Magnific design_auto_resize и AI Assistant в AE за 24 месяца поглотят около 40% задачи. Качество зависит от подрядчика. Продажи ретейнеров требуют времени основателя.",
+    "prelim_scores": {
+     "expertise": 5,
+     "demand": 4,
+     "freeness": 3,
+     "clone": 3,
+     "platform": 2,
+     "speed": 4,
+     "support": 2,
+     "unit_econ": 3,
+     "channels": 3,
+     "payments_reg": 5,
+     "viability": 3
+    }
+   },
+   {
+    "name": "Brand Motion System для AI-производства (спринт + skills)",
+    "is_new": false,
+    "candidate_refs": [
+     98,
+     58,
+     60
+    ],
+    "one_liner": "Фиксированный спринт на 3–4 недели. Результат: моушн-язык бренда, библиотека компонентов (AE/MOGRT, Figma Motion, Lottie), AI-стайлгайд (референс-паки, правила «что заблокировано») и skills для агентов, чтобы in-house AI-производство не теряло узнаваемость.",
+    "type": "A",
+    "format": "$6–12 тыс. разово плюс $500–1 500/мес за обновления. Делают моушн-ассистенты по шаблону процесса, основатель — арт-директор 2–4 ч/нед. Части без привязки к бренду уходят в Branded World Packs.",
+    "buyer_and_pain": "Стартапы и бренды среднего размера с in-house AI-производством (GenStudio, Higgsfield, Canva). Сотни вариантов теряют фирменный стиль, алгоритм площадок требует разнообразия, бренд — единства. Полная brand-in-motion система у агентства стоит $30–75 тыс.",
+    "why_it_wins": "Вкус, портфолио и опыт моушн-продакшна для брендов не клонируются. Платформы (Firefly Custom Models, GenStudio с заблокированными шаблонами) требуют на вход именно такие системы и тем самым создают спрос. Связка с 3D/DOOH-студией даёт премиальные кейсы. Каналы: действующие клиенты основателя и кейсы.",
+    "key_evidence": "Агентства переходят от «часов людей» к проектированию систем, которые генерируют сотни согласованных вариантов (исследование «Publicidad IA», https://github.com/fredy-sudo/La-otra-carrera-didactic-couscous/blob/HEAD/Publicidad%20IA/investigacion.md, 2026-08). Custom Models интегрированы в GenStudio (https://news.adobe.com/news/2025/03/adobe-firefly-services-custom-models-unlock-on-brand-content-production, 2025-03). Envato: покупатели хотят «branded world rather than standalone assets» (https://hub.author.envato.com/video-templates-content-insights-december-2025/, 2025-12). Агентские прайс-гайды 2026: система $30–75 тыс., логостинг $5–15 тыс. (выдача поиска 2026-09-26 по launchdayadvisors.com, webtonic.io, cueballcreatives.com; точный источник цифры не перепроверен).",
+    "main_risk": "Это услуга, которая держится на вкусе основателя. B2B-цикл длинный, в 2–4 ч/нед уложиться трудно. Нижний сегмент закроют брендовые наборы Canva и Higgsfield Marketing Studio.",
+    "prelim_scores": {
+     "expertise": 5,
+     "demand": 3,
+     "freeness": 3,
+     "clone": 4,
+     "platform": 4,
+     "speed": 3,
+     "support": 2,
+     "unit_econ": 4,
+     "channels": 2,
+     "payments_reg": 5,
+     "viability": 4
+    }
+   },
+   {
+    "name": "Pipeline Radar: рассылка и матрица совместимости AE/Premiere",
+    "is_new": false,
+    "candidate_refs": [
+     14,
+     30,
+     49,
+     67,
+     59
+    ],
+    "one_liner": "Еженедельная рассылка и публичная матрица «плагин × версия AE/Premiere × CEP/UXP × Apple Silicon/WinARM» плюс календарь закрытий AI-моделей. Это медиа-актив, который до 2029 года растит собственный канал к моушн-студиям.",
+    "type": "AB",
+    "format": "Бесплатный сайт и рассылка. Деньги: спонсорство разработчиков плагинов и AI-инструментов ($200–800 за выпуск, оценка) и Studio pack за $99/год с алертами по своему списку плагинов. Данные собирает агент по cron, основатель редактирует 1–2 ч/нед. Внутренний Clone Radar идёт как побочный продукт.",
+    "buyer_and_pain": "Пайплайн-TD, фрилансеры и студии боятся обновлять AE: непортированные плагины отключаются, CEP уходит. Разработчикам нужна видимость статуса «UXP-ready».",
+    "why_it_wins": "Накопленная история совместимости и данные, которые присылают сами разработчики, задним числом не восстановить. Для Adobe это слишком мелко. Главное — это канал: UXP Rescue Desk, Take Ledger и новые версии Oblique запускаются в готовую аудиторию, и это нужно, чтобы окупить продукт за 30–60 дней до прихода клонов.",
+    "key_evidence": "Тред «CEP/UXP roadmap: should developers stop building CEP plugins» (https://community.adobe.com/questions-606/cep-uxp-roadmap-should-developers-stop-building-cep-plugins-and-what-happens-to-existing-ones-1614807, 2026). AE на Apple Silicon отключает непортированные сторонние плагины и показывает их список при запуске (https://helpx.adobe.com/after-effects/kb/after-effects-apple-silicon.html). Публичного трекера совместимости по всем вендорам поиск 2026-09-26 не нашёл. r/AfterEffects — около 97 тыс. посетителей в неделю (поток motion_industry, 2026-07). aescripts.com стабильно в мировом топ-100k CrUX (поток seo_utilities).",
+    "main_risk": "Платящая аудитория маленькая. aescripts может добавить значки совместимости у себя. Спонсорская выручка скромная, нужна дисциплина еженедельных выпусков.",
+    "prelim_scores": {
+     "expertise": 4,
+     "demand": 3,
+     "freeness": 4,
+     "clone": 3,
+     "platform": 3,
+     "speed": 4,
+     "support": 3,
+     "unit_econ": 2,
+     "channels": 3,
+     "payments_reg": 4,
+     "viability": 4
+    }
+   },
+   {
+    "name": "Branded World Packs: шаблоны-системы в одном стиле",
+    "is_new": false,
+    "candidate_refs": [
+     70
+    ],
+    "one_liner": "Системы шаблонов в едином дизайн-языке студии (стекло, анаморфная эстетика): 40–80 элементов — переходы, титры, lower thirds, оверлеи — во всех соцформатах для Premiere, AE и MOGRT. Новый пакет раз в 1–2 месяца, делают ассистенты.",
+    "type": "A",
+    "format": "Videohive/Envato ($29–49 за пакет, выплаты на Payoneer), aescripts и собственный магазин. Бесплатный мини-пакет — лид-магнит в рассылку Pipeline Radar.",
+    "buyer_and_pain": "Монтажёры, SMM-специалисты и маленькие агентства ищут цельный «брендовый мир», а находят разрозненные ассеты.",
+    "why_it_wins": "Узнаваемый стиль и регулярные выпуски складываются в каталог, который со временем только растёт. Поддержка почти нулевая, работу можно отдать ассистентам. Трафик даёт сам маркетплейс.",
+    "key_evidence": "Envato: поисковые запросы «stylish packages» +410% при конверсии в скачивание 6,2% (https://hub.author.envato.com/video-templates-content-insights-december-2025/, 2025-12). Самый скачиваемый шаблон 2025 года — пакет переходов для Premiere, 106 000 скачиваний (https://elements.envato.com/learn/envato-unpacked, 2025-12). Лидеры product-promo на Videohive стоят $14–49 (поток demand_scout_plus, 2026-09-26).",
+    "main_risk": "Цена шаблона стремится к нулю: Motion Array отдаёт весь каталог за $15,99–24,99/мес. У Higgsfield 231 моушн-пресет. Защита слабая.",
+    "prelim_scores": {
+     "expertise": 5,
+     "demand": 3,
+     "freeness": 2,
+     "clone": 2,
+     "platform": 2,
+     "speed": 5,
+     "support": 4,
+     "unit_econ": 2,
+     "channels": 4,
+     "payments_reg": 5,
+     "viability": 2
+    }
+   },
+   {
+    "name": "SEA 3D Screen Atlas + Spec Packs + двойники экранов",
+    "is_new": false,
+    "candidate_refs": [
+     61,
+     62,
+     75,
+     29,
+     35,
+     16,
+     56,
+     77,
+     76
+    ],
+    "one_liner": "Каталог премиальных и 3D-экранов Индонезии, Сингапура, Малайзии и Таиланда с полевыми данными: геометрия, pixel map, точка обзора, фото и плейт, сроки согласований. Платные spec-паки и превиз на цифровом двойнике экрана, заявки идут в студию.",
+    "type": "AB",
+    "format": "Сайт на Supabase. Spec-пак $29–79 за экран или $149–299 за город, превиз «ваш ролик на экране X» $49–99 за рендер, лиды в студию. Бесплатный DOOH-preflight и LED-калькулятор канваса работают как воронка.",
+    "buyer_and_pain": "Агентства, бренды и фрилансеры, которые делают 3D- и DOOH-кампании в ЮВА. Тарифы и спецификации не публикуются, владельцы присылают неточные PDF, согласование в KL занимает 7–10 рабочих дней.",
+    "why_it_wins": "Продукт привязан к физическому миру: замеры и съёмка с точки обзора, отношения с владельцами экранов, местные языки. Кодом это не копируется, а в OpenOOH полей геометрии нет. В APAC почти весь DOOH продаётся напрямую, поэтому данные и отношения ценнее программатика. Отдельные поездки не нужны: данные попутно дают проекты White-label Desk и Cheering Ads.",
+    "key_evidence": "Доля программатика в DOOH APAC — 1,7%, в Восточной Азии — 0,6% (https://invidis.com/news/2026/09/research-analysis-woo-puts-global-programmatic-dooh-spend-at-us1-34-billion/, 2026-09). У FOOH.com 139 экранов в 63 городах, почти нет ЮВА (https://fooh.com/directories/screens, 2026-09). В OpenOOH v1.1/v1.2 нет полей геометрии и точки обзора (https://github.com/openooh/venue-taxonomy, обновлён 2026-09-24). Согласование в KL — 7–10 рабочих дней (https://www.adquick.com/dooh-advertising/kuala-lumpur-my, 2026). Новые 3D-экраны: ION Orchard 189 м², Heeren 82 м² (поток dooh_3d_plus). Pixel Group — 500+ площадок, включая аэропорт Нгурах-Рай на Бали (выдача поиска 2026-09-26).",
+    "main_risk": "FOOH.com за год удвоил каталог и может прийти в ЮВА быстрее. Сделок мало — десятки в год на страну. Нужна полевая работа и согласие владельцев на публикацию спецификаций.",
+    "prelim_scores": {
+     "expertise": 4,
+     "demand": 2,
+     "freeness": 3,
+     "clone": 4,
+     "platform": 5,
+     "speed": 3,
+     "support": 3,
+     "unit_econ": 3,
+     "channels": 2,
+     "payments_reg": 4,
+     "viability": 4
+    }
+   },
+   {
+    "name": "3D Loop Library: параметрические анаморф-лупы под геометрию экрана",
+    "is_new": false,
+    "candidate_refs": [
+     64,
+     78
+    ],
+    "one_liner": "Библиотека параметрических анаморфных лупов: окна-аквариумы, частицы, сезонные праздники ЮВА (Лебаран, Китайский Новый год, Ньепи, Рождество). Каждый луп автоматически подгоняется под угол, изгиб и модули экрана и рендерится на заказ.",
+    "type": "A",
+    "format": "Веб-конфигуратор: размеры, угол, pixel map → превью → рендер. Подогнанный луп с логотипом стоит $150–500. Подписка $300–900/мес с сезонными дропами для ТЦ, отелей, девелоперов и LED-интеграторов. Облачная рендер-ферма, оплата через Paddle (продукт не AI-генератор).",
+    "buyer_and_pain": "Владельцы LED-экранов (ТЦ, отели, девелоперы) и интеграторы, которым нужен хаус- и демо-контент, чтобы продавать экран. Сюда же прокатчики event-LED: свадебные videotron — тренд в Индонезии. Кастом у студии стоит $8–25 тыс., шаблон у китайского вендора — $1 000 за 30 секунд.",
+    "why_it_wins": "Библиотека растёт из проектов студии, параметрический конвейер держат 3D-ассистенты. Локальных культурных тем ЮВА у китайских вендоров нет. AI-видеомодели не умеют off-axis-проекцию и соотношения шире 21:9. Каналы: LED-интеграторы и Atlas.",
+    "key_evidence": "KLMultimedia продаёт готовые 3D-шаблоны по $1 000 за ролик ~30 с с подгонкой под угол и разрешение за ~5 рабочих дней (https://www.klmultimedia.com/3d-Billboards.html, выдача 2026-09-26) — это ценовой якорь и доказательство спроса. Pavilion KL сам запускал 3D-контент (https://fooh.com/screens/pavilion-kl-3d-billboard/). Для GI Kempinski 3D делала Daktronics Creative Services (https://fooh.com/screens/gi-kempinski-mall-3d-billboard/). Reklam Istanbul был вынужден создать собственную 3D-студию (https://broadsign.com/blog/how-reklam-istanbul-is-building-turkeys-largest-digital-ooh-network-with-broadsign/, 2024–2025). Тренд свадебных videotron в Индонезии (https://uno.id/videotron-wedding/, 2025–2026). Видеомодели Magnific и Higgsfield ограничены 21:9 (MCP, 2026-09-26).",
+    "main_risk": "B2B-продажи идут долго. Нестандартные геометрии съедают время. Китайские вендоры демпингуют. Индонезийский малый бизнес редко платит картой, отсюда трение с оплатой.",
+    "prelim_scores": {
+     "expertise": 4,
+     "demand": 3,
+     "freeness": 3,
+     "clone": 3,
+     "platform": 4,
+     "speed": 3,
+     "support": 3,
+     "unit_econ": 4,
+     "channels": 2,
+     "payments_reg": 3,
+     "viability": 3
+    }
+   },
+   {
+    "name": "White-label 3D Desk для DOOH-операторов и LED-интеграторов",
+    "is_new": true,
+    "candidate_refs": [
+     64,
+     78,
+     77
+    ],
+    "one_liner": "Белая 3D-продакшн-служба для операторов DOOH в ЮВА. Оператор продаёт рекламодателю пакет «слот + 3D-ролик» по фиксированному меню, студия основателя делает ролик по шаблонам под конкретный экран, оператор получает 15–25%.",
+    "type": "A",
+    "format": "Меню $1,5–6 тыс. за 10–15-секундный 3D-ролик под экран оператора (у студий — $8–25 тыс.). Отделу продаж оператора — бесплатное превью «ваш бренд на нашем экране» на цифровом двойнике. Договор с оператором, производство — 3D-ассистенты, основатель — арт-контроль и приёмка.",
+    "buyer_and_pain": "Операторы (Lestari, Prisma, Pixel Group, TPM, Plan B) и интеграторы, продающие новые 3D-экраны. У рекламодателя нет 3D-креатива, и это главный барьер к покупке слота, а своя студия, как у Reklam Istanbul, стоит дорого.",
+    "why_it_wins": "Каналом становится сам оператор: один договор даёт поток рекламодателей без собственного маркетинга. Шаблоны и цифровые двойники под конкретные экраны вместе со знанием правил модерации оператора копируются плохо. Основатель рядом с рынком (Бали, Джакарта), производство в регионе дешёвое. Программатик в APAC — 1,7%, SSP сюда не придут. Отличие от №64/78: покупатель — оператор-перепродавец, а не владелец экрана для хаус-контента.",
+    "key_evidence": "Продажные страницы Cross Shinjuku Vision: 3D-производство оплачивается отдельно, медиа от ¥200 тыс. в день (выдача поиска 2026-09-26: fan-uni.com, oohmatch.com). В sales sheet есть доплата ¥50 000 за приём контента (поток dooh_3d_plus). Рынок производства в Индонезии существует: Unicam Studio (https://www.unicamstudio.com/jasa3d-anamorphic-videotron-jakarta/) и Unimasi (https://www.unimasi.com/jasa-pembuatan-videotron-3d-jakarta/) продают 3D-videotron, uno.id публикует гайд «Biaya Produksi Video Iklan 3D Anamorphic 2026» (https://uno.id/biaya-produksi-video-iklan-3d-anamorphic-terbaru-2026/). Разброс цен: студии $8–25 тыс., Fiverr $70–600 (поток dooh_3d, 2026-09). OAAA: AI-компании стали крупными заказчиками наружки (https://oaaa.org/news/from-coca-cola-to-openai-brands-are-betting-bigger-on-ooh/, 2026). DOOH в США +18,5% за Q2 2026.",
+    "main_risk": "Операторы могут остаться с местными студиями или строить свою. B2B-продажи из Бали забирают время основателя. Правки и согласования растягивают сроки. Индонезийские клиенты удерживают налог у источника и предпочитают платить в IDR.",
+    "prelim_scores": {
+     "expertise": 4,
+     "demand": 3,
+     "freeness": 2,
+     "clone": 4,
+     "platform": 5,
+     "speed": 3,
+     "support": 2,
+     "unit_econ": 4,
+     "channels": 3,
+     "payments_reg": 3,
+     "viability": 4
+    }
+   },
+   {
+    "name": "3D Cheering Ads: фанатская 3D-реклама по шаблонам",
+    "is_new": false,
+    "candidate_refs": [
+     63
+    ],
+    "one_liner": "Шаблонные 3D-поздравления для фанатской рекламы (дни рождения айдолов, юбилеи персонажей) под 3D-совместимые экраны Токио, Осаки, Бангкока и Джакарты. Продаются как белый подряд для фан-агентств и напрямую фан-клубам.",
+    "type": "A",
+    "format": "Меню $300–1 500 за ролик: шаблон плюс кастомизация имени, цветов и символики, срок 5–10 дней. Посредникам (Fan-Uni, センイルJAPAN, бангкокские фан-агентства) — оптовая цена. Лендинги на японском, тайском и бахаса, производство — 3D-ассистенты.",
+    "buyer_and_pain": "Фан-клубы и посредники фанатской рекламы. Медиа уже доступно недорого: через Fan-Uni 3D на Cross Shinjuku — от ¥130 тыс., на DIP Vision в Умэде — от ¥30 тыс. А 3D-производство продаётся отдельно по цене студийного кастома.",
+    "why_it_wins": "Шаблоны заточены под конкретные экраны, основатель знает правила модерации операторов. Посредники — готовый B2B-канал, спрос повторяется по календарю дней рождения. Крупные платформы в этот сегмент не пойдут.",
+    "key_evidence": "jeki оценивает потенциальный рынок 応援広告 в ¥76,9 млрд (https://www.advertimes.com/20250228/article490975/, 2025-02-28), Nikkei — около ¥77 млрд (https://www.nikkei.com/article/DGXZQOUD159MP0V10C25A8000000/, 2025). INFORICH прогнозирует рост опытных заказчиков с 350 тыс. до 1,43 млн и рынок больше ¥120 млрд (https://prtimes.jp/main/html/rd/p/000000374.000033521.html). У jeki есть отдельный продукт Cheering AD для Cross Shinjuku (https://cheering-ad.jeki.co.jp/en/products/cross-shinjuku-vision, 2026). Fan-Uni: 3D-совместимые экраны и запуск за 2 недели (https://www.fan-uni.com/en, 2026-09). Фан-реклама в Бангкоке: https://www.bangkokpost.com/life/social-and-lifestyle/3066237/fan-love-lights-up-bangkok-streets. День рождения Чонгука показали на 16 508 LED-экранах метро (https://www.avinteractive.com/news/digital-signage-and-dooh/k-pop-stars-birthday-celebration-takes-over-16508-led-screens-30-08-2022/, 2022).",
+    "main_risk": "Права на изображения айдолов и персонажей требуют одобрения агентства, у операторов свои правила модерации. Языковой и культурный барьер. Чек низкий, а правки ручные.",
+    "prelim_scores": {
+     "expertise": 4,
+     "demand": 4,
+     "freeness": 3,
+     "clone": 3,
+     "platform": 5,
+     "speed": 4,
+     "support": 2,
+     "unit_econ": 3,
+     "channels": 3,
+     "payments_reg": 3,
+     "viability": 4
+    }
+   },
+   {
+    "name": "«Оживший вернисаж»: школьный фандрайзер только по рисункам",
+    "is_new": false,
+    "candidate_refs": [
+     20,
+     81,
+     99,
+     100,
+     21,
+     101,
+     24
+    ],
+    "one_liner": "Учитель загружает рисунки класса, родные покупают ролик «рисунок оживает», открытку с QR и «фильм выставки», школа получает 20–30%. Фото детей не используются. Пилот — международные школы Бали, Джакарты и Сингапура, затем white-label для американских арт-фандрайзеров.",
+    "type": "AB",
+    "format": "Кабинет учителя, витрина для родителей и печать через PoD (Gelato или Prodigi). Анимация гибридная: линии ребёнка анимируются детерминированно, генерируются только фон и камера. Оплата через Dodo или Creem (Paddle запрещает AI-генерацию), автоудаление данных.",
+    "buyer_and_pain": "Арт-учителя, родительские комитеты и детсады хотят фандрайзинг и подарок к выпуску без возни и без рисков с фото детей. Платят родители, бабушки и дедушки.",
+    "why_it_wins": "Институциональный канал и сезонный ритуал за дни не скопируешь. У инкумбентов анимации нет. Формат «только рисунки» обходит блокировки детских фото у провайдеров. Качество «рисунок остаётся рисунком» — прямая экспертиза моушн-дизайнера, а жизнь на Бали даёт доступ к пилотным школам.",
+    "key_evidence": "Square 1 Art приносит школам почти $7 млн в год (square1art.com/about-us, 2026). Artsonia: 50 000+ школ и 138,7 млн работ, US топ-5k CrUX (artsonia.com/about, 2026-09). Art to Remember: 11 545 школ, $45 млн+ с 1995 года. Школьные магазины входят в топ-50k CrUX в марте–апреле и октябре–ноябре (https://github.com/zakird/crux-top-lists, 2025–2026). Анимации ни у одного инкумбента не найдено (поток kids_market_plus).",
+    "main_risk": "B2B-цикл длинный, первый сезон — весна 2027. Инкумбенты могут добавить анимацию сами (оценка 40–60% к 09.2028). Нужен комплаенс по детским данным и отдельный MoR.",
+    "prelim_scores": {
+     "expertise": 3,
+     "demand": 4,
+     "freeness": 4,
+     "clone": 3,
+     "platform": 4,
+     "speed": 3,
+     "support": 2,
+     "unit_econ": 4,
+     "channels": 2,
+     "payments_reg": 3,
+     "viability": 3
+    }
+   },
+   {
+    "name": "CrewRate: калькуляторы ставок и дохода после налогов для креативных фрилансеров",
+    "is_new": false,
+    "candidate_refs": [
+     25,
+     27,
+     95,
+     40,
+     32
+    ],
+    "one_liner": "Калькуляторы для кино-, ТВ-, рекламных и моушн-фрилансеров UK, IE, AU и NZ: дневная ставка, переработки, kit fee, сравнение PAYE, sole trader и Ltd, сумма после налогов. Плюс ежегодный индекс ставок моушн-дизайнеров по собственному опросу.",
+    "type": "AB",
+    "format": "SEO-сайт с глубокими калькуляторами по ролям, PDF-расчётка для инвойса, виджет для школ и гильдий, рассылка при смене ставок. Доход: реклама с финансовым RPM и лиды бухгалтерам и страховщикам.",
+    "buyer_and_pain": "Креативные фрилансеры и продюсеры. Рейт-карты лежат в PDF, правила переработок сложные, непонятно, сколько выставлять и сколько останется после налогов.",
+    "why_it_wins": "Профессиональные калькуляторы — единственный растущий подтип SEO-утилит. Основатель свой в креативном сообществе (база Oblique, опрос ставок). Собственный датасет ставок растёт год к году и не клонируется, в отличие от формул.",
+    "key_evidence": "CrUX: nhstakehome.co.uk попал в топ-50k GB за 3 месяца, teacherpaycalculator.com вырос с 1M до 100k, contractorcalculator.co.uk держится в топ-50k GB с 01.2025 по 08.2026. Когорта pay/tax в GB выросла со 120 до 134 сайтов (https://github.com/zakird/crux-top-lists, 2026-08). Creative Boom 2026, 882 ответа: 47% самозанятых получают меньше £30 тыс. (https://www.creativeboom.com/news/the-state-of-the-creative-industry-2026-what-our-survey-tells-us-about-money-burnout-and-ai/, 2026-06-29).",
+    "main_risk": "Аудитория меньше, чем у NHS или учителей. Клоны появляются за 1–3 месяца. Тема YMYL (налоги). Права на использование рейт-карт нужно проверить.",
+    "prelim_scores": {
+     "expertise": 3,
+     "demand": 3,
+     "freeness": 4,
+     "clone": 2,
+     "platform": 3,
+     "speed": 5,
+     "support": 4,
+     "unit_econ": 3,
+     "channels": 3,
+     "payments_reg": 4,
+     "viability": 3
+    }
+   },
+   {
+    "name": "GenMedia Price & Yield Tracker",
+    "is_new": false,
+    "candidate_refs": [
+     1,
+     7,
+     15,
+     39,
+     72,
+     2,
+     8
+    ],
+    "one_liner": "Трекер цен AI-видео и изображений в трёх слоях: API вендора, реселлеры и розница агрегаторов в долларах. Календарь закрытий моделей и метрика «$ за годную секунду» по шкале дефектов моушн-дизайнера.",
+    "type": "B",
+    "format": "SEO-сайт с датированными страницами и еженедельная рассылка. Платно: алерты, CSV или API за $19–49/мес. Премиум — ежемесячный отчёт о доле годных дублей на безлимитных тарифах.",
+    "buyer_and_pain": "Продюсеры AI-студий, агентства и инди-разработчики. Одна и та же модель стоит в разных каналах в 2–3 раза по-разному, модели закрываются через 12–18 месяцев.",
+    "why_it_wins": "Историю розничных цен и кредитов агрегаторов с 2026 года задним числом не восстановить. Основатель каждый день работает в Magnific и Higgsfield (есть доступ к simulate_cost), а его глаз на дефекты даёт уникальную метрику годности. Каналы: Pipeline Radar и SEO.",
+    "key_evidence": "По полю deprecation_date в LiteLLM ожидается около 20 закрытий генмедиа-моделей за 12 месяцев, при этом база отстаёт на 4–5 месяцев (https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json, 2026-09-25). Розница Magnific отличается от API в 0,35–7,6 раза (simulate_cost, 2026-09-26). Sora API закрыт 2026-09-24. artificialanalysis.ai вырос в US с 500k до 50k по CrUX (поток seo_utilities). «Дорогая часть — неудачный шот» (https://dev.to/ugliai/ai-video-in-2026-the-expensive-part-is-the-failed-shot-not-the-generate-button-215l, 2026).",
+    "main_risk": "Бесплатные конкуренты: Artificial Analysis, LiteLLM, fal-model-atlas, costgoat. AIO забирает клики. ToS агрегаторов могут запрещать сбор данных. Готовность платить низкая.",
+    "prelim_scores": {
+     "expertise": 4,
+     "demand": 3,
+     "freeness": 2,
+     "clone": 3,
+     "platform": 3,
+     "speed": 4,
+     "support": 3,
+     "unit_econ": 3,
+     "channels": 3,
+     "payments_reg": 4,
+     "viability": 3
+    }
+   },
+   {
+    "name": "Commercial License Atlas: лицензии AI-моделей, шрифтов и музыки для рекламы",
+    "is_new": false,
+    "candidate_refs": [
+     3,
+     12,
+     31,
+     94
+    ],
+    "one_liner": "Датированная база ответов «можно ли использовать X в рекламе, DOOH или работе для клиента в стране Y»: лицензии и ToS AI-моделей, шрифтов, музыки и стока с историей изменений, алертами и PDF-паспортом ассета для клиента.",
+    "type": "B",
+    "format": "Бесплатная SEO-база. Платно: алерты об изменениях и паспорта ассетов, $15–39/мес на студию. Данные питают Take Ledger.",
+    "buyer_and_pain": "Агентства и студии UK и ЕС и фрилансеры, сдающие AI-контент брендам. HunyuanVideo исключает EU, UK и KR, H3 запрещает локальное использование в US, EU, UK и KR, шрифтовые EULA по-разному трактуют broadcast, приложения и DOOH.",
+    "why_it_wins": "Скучная регуляторная ниша, где история изменений не восстанавливается задним числом. Для крупных игроков мелко, а C2PA описывает происхождение, но не права. Работает в связке с Take Ledger и Pipeline Radar.",
+    "key_evidence": "Лицензия HunyuanVideo 1.5 исключает EU, UK и KR, включая Output (https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5/blob/main/LICENSE, 2025-11-21). LTX-2.x бесплатна до $10 млн выручки (https://github.com/Lightricks/LTX-2/blob/main/LICENSE-2_x, 2026-08-11). MiniMax H3 (https://comfyui-wiki.com/en/news/2026-08-03-minimax-h3-open-weights-comfyui, 2026-08-03). Ст. 50 AI Act применяется с 2026-08-02, ЕК готовит Code of Practice (https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content). identifont.com и fontsinuse.com держатся в топ-50k US/GB по CrUX (поток seo_utilities).",
+    "main_risk": "Ответственность за ошибку: нужны дисклеймер и рецензент. Спрос не подтверждён, перед стартом нужно 10 интервью. Простые вопросы уйдут в AIO.",
+    "prelim_scores": {
+     "expertise": 3,
+     "demand": 3,
+     "freeness": 4,
+     "clone": 3,
+     "platform": 4,
+     "speed": 4,
+     "support": 3,
+     "unit_econ": 3,
+     "channels": 3,
+     "payments_reg": 3,
+     "viability": 4
+    }
+   },
+   {
+    "name": "PayScale Local с другом: калькуляторы профессиональных шкал оплаты AU/NZ/IE/CA",
+    "is_new": false,
+    "candidate_refs": [
+     26
+    ],
+    "one_liner": "Калькуляторы оплаты медсестёр, учителей и полиции по штатам и провинциям AU, NZ, IE и CA на готовом конвейере друга. Основатель вкладывает время на QA и дизайн, выручка делится.",
+    "type": "B",
+    "format": "Сеть «1 профессия × 1 юрисдикция», 20–50 глубоких страниц на реальных таблицах коллективных соглашений. Реклама: AdSense, затем Journey или Raptive. Обновление в день выхода нового соглашения.",
+    "buyer_and_pain": "Бюджетники, которым каждый год меняют шкалы и налоги.",
+    "why_it_wins": "Единственный быстрый денежный актив в портфеле: спрос подтверждён CrUX, конвейер друга снимает риск исполнения. Честно: несправедливого преимущества у основателя здесь нет. Это хедж кэш-флоу, а не ставка на три года.",
+    "key_evidence": "wagecalculator.com.au поднялся с 500k до 50k в AU (12.2025→08.2026), fairworkmate.com.au — с 500k до 50k (04→08.2026), nhstakehome.co.uk вошёл в топ-50k GB за 3 месяца (https://github.com/zakird/crux-top-lists, 2026-08). RPM финансовых калькуляторов в Tier-1 — $15–40 (поток seo_utilities).",
+    "main_risk": "Клоны за 1–3 месяца (в NHS-нише уже 5 клонов). Спам-политика Google от 2026-05-15 и generative UI Gemini.",
+    "prelim_scores": {
+     "expertise": 1,
+     "demand": 5,
+     "freeness": 2,
+     "clone": 1,
+     "platform": 2,
+     "speed": 5,
+     "support": 4,
+     "unit_econ": 4,
+     "channels": 4,
+     "payments_reg": 4,
+     "viability": 2
+    }
+   },
+   {
+    "name": "Agent-Ready Templates: брендовые AE-шаблоны в компоненты для агентов",
+    "is_new": true,
+    "candidate_refs": [
+     58,
+     36
+    ],
+    "one_liner": "Продуктизированная конвертация брендовых AE-шаблонов в компоненты для агентов (Remotion или Lottie плюс skill-описание). Claude, Figma agent или внутренний конвейер компании рендерят варианты без лицензий AE и render-минут.",
+    "type": "A",
+    "format": "Фикс-прайс $1,5–5 тыс. за пакет из 5–10 шаблонов плюс $200–500/мес поддержка. Конвертирует Claude Code по методике основателя, основатель проверяет пиксельное соответствие. Воронка — бесплатный чекер «что из вашего .aep переносится».",
+    "buyer_and_pain": "Продуктовые и маркетинговые команды SaaS и агентства: брендовые шаблоны живут в AE, а производство переезжает в агентные и кодовые конвейеры. Plainly и Nexrender требуют AE на сервере и продают render-минуты.",
+    "why_it_wins": "Редкое знание: какие функции AE (выражения, эффекты, 3D-слои, изинги) переносятся в код и как именно. Это шов между AE и агентами: Adobe туда не пойдёт, Remotion ручную конвертацию не делает. Заодно хедж против сценария, где доля AE размывается в пользу кода. Каналы: база Oblique, Pipeline Radar, клиенты Versioning Desk.",
+    "key_evidence": "Remotion — 60,4 тыс. звёзд, позиционирует себя как «video tools for the agent era» (https://github.com/remotion-dev/remotion, 2026-09). Конвейер «URL → Claude Code + Remotion» стоит около $2–4 за видео (https://www.reddit.com/r/ClaudeAI/comments/1stutgf, 2026-04-23). Есть отдельное исследование переноса AE в Remotion (https://github.com/blueif16/vlog_test/blob/main/shared/research/ae-to-remotion-replant-2026-05-31.md, 2026-05-31). LaunchVideo делает ролик по URL (https://launchvideo.io, 2026-09-24). Plainly — $69–649/мес за render-минуты (Capterra, 2026). Прямого спроса на конвертацию не измерено.",
+    "main_risk": "Спрос косвенный: агенты генерируют с нуля, и брендовых skills может хватить. Claude Code делает конвертацию доступной разработчикам клиента. Lottie закрывает простые случаи.",
+    "prelim_scores": {
+     "expertise": 5,
+     "demand": 2,
+     "freeness": 4,
+     "clone": 2,
+     "platform": 3,
+     "speed": 4,
+     "support": 3,
+     "unit_econ": 4,
+     "channels": 2,
+     "payments_reg": 5,
+     "viability": 3
+    }
+   }
+  ],
+  "rejections": [
+   {
+    "name": "AI Plate Finishing Kit / Prep / Finisher для AE (№4, 10, 37, 96)",
+    "reason": "Доводку уже поглощают. Adobe купила Topaz (2026-06-25) и сделала нативными Object Matte и Unmult. Higgsfield и Magnific продают deflicker, апскейл с пресетом «aigc», HDR и color transfer в один клик. Вероятность нативного решения за 24 месяца — около 75%, пресеты клонируются за дни. Экспертизу основателя лучше продавать услугой (Versioning Desk), чем пресетом."
+   },
+   {
+    "name": "AI Plate Bridge и платный AE-агент/MCP (№11, 55)",
+    "reason": "Бесплатные AE-панели генерации уже есть у Magnific, Higgsfield и Runway. Публичных репозиториев AE-MCP — 72, темп около 12 в месяц. AI Assistant в AE 26.5 сам пишет JSX. Модельные API живут 12–18 месяцев (Sora API закрыт 2026-09-24), поэтому поддержка интеграций не уложится в 2–4 ч/нед."
+   },
+   {
+    "name": "Screen Twin Previz / Anamorphic Kit как AE-плагин (№16, 34, 74)",
+    "reason": "Кодовый слой уже занят: aescripts Naked-Eye 3D (05.2026) и LED Architect ($99,99), бесплатные pixel-map-инструменты, Maxon бесплатно учит анаморфу в C4D. TAM — около 2–10 тыс. покупателей. Защищаемы только данные конкретных экранов, поэтому идея перенесена в Atlas и Spec Packs."
+   },
+   {
+    "name": "Отдельные фичи Figma→AE как продукты: Motion Bridge, Figma Motion Presets, платный Agent Mode (№33, 54, 71)",
+    "reason": "UXLink уже переносит Figma Motion, бесплатных мостов 16+, Figma Motion бесплатно экспортирует MP4, Lottie и React. Готовность платить за MCP-слой нулевая. Всё это имеет смысл только внутри Oblique Pro как функции или бесплатный канал."
+   },
+   {
+    "name": "Потребительское приложение «рисунок ребёнка → видео» (№22, 82, 88)",
+    "reason": "Около 30 конкурентов, платформы дают анимацию бесплатно. Платный CAC $83–250 против LTV первого года около $30. Apple 4.3 запрещает портфель клонов, 5.1.2(i) требует согласия. Squiggletale: «реклама теряет 7x»."
+   },
+   {
+    "name": "«Ребёнок + рисунок» и мультяшные портреты для детских фотографов (№23, 84)",
+    "reason": "OpenAI, Veo и Seedance блокируют реальных детей. Self-host на открытых весах перекладывает на основателя всю ответственность за CSAM-модерацию, COPPA, AADC и GDPR-K. Репутационный риск несовместим с автономным продуктом."
+   },
+   {
+    "name": "Потребительская AI-анимация фото: Heirloom, Holiday Living Card, Pet Legacy, Tribute Studio (№85, 87, 89, 90)",
+    "reason": "Google Photos, TikTok AI Alive и iOS 27 Enhance дают это бесплатно. Paddle запрещает AI-генераторы и дипфейки. Годовое удержание AI-приложений — 21%. Tribute вдобавок упирается в этику «оживления умерших» и B2B-продажи похоронным домам без канала."
+   },
+   {
+    "name": "FOOH Kit (№65, 80)",
+    "reason": "Рынок заказного FOOH — около $4–15 млн в год (1 872 ролика в 2025 году). Эстетику закрывают пресеты AI-генераторов (Street colossus, Billboard Ad у Artificial Studio и WaveSpeed). FOOH на реальной локации подпадает под определение дипфейка по ст. 50 AI Act. Ров слабый."
+   },
+   {
+    "name": "SEO-калькуляторы стоимости DOOH/билбордов ЮВА и сметы как отдельный сайт (№32, 40, 79)",
+    "reason": "Выдача по «harga sewa videotron» уже занята операторами на бахаса (transads, Lestari, Firstboard, uno.id и др.). DOOH-справочники не попадают в топ-1M CrUX. Как лидоген годится только внутри Atlas."
+   },
+   {
+    "name": "Отдельный Delivery QC / SpecCheck / DOOH Export Doctor (№18, 28, 57, 76, 92)",
+    "reason": "Спецификации публичны, платформы сами обрезают и подгоняют ролики, готовность платить низкая. Текстовые запросы вида «tiktok video size» забирает AIO. Оставить как бесплатную воронку внутри Atlas и Pipeline Radar."
+   },
+   {
+    "name": "Каталоги и радары без денег: Creative MCP Index, Clone Radar как SaaS, Trend Radar (№59, 67, 91)",
+    "reason": "Витрины Claude и ChatGPT забирают discovery. Агент по cron воспроизводит мониторинг бесплатно. Тренды живут 2–6 недель. Clone Radar держать как внутренний инструмент портфеля."
+   },
+   {
+    "name": "Skill-пакеты для AI Assistant в AE (№6) — сейчас",
+    "reason": "Adobe пока не открыла интеграцию для третьих сторон, а ассистент генерирует скрипты, но не выполняет их. Это опцион: наблюдать релиз-ноуты AE и строить, только если откроют маркетплейс skills."
+   },
+   {
+    "name": "Пакеты для Cavalry/Autograph/Affinity (№17)",
+    "reason": "Cavalry Pro бесплатен навсегда (https://www.canva.com/help/free-cavalry-access/). Команда Canva сама публикует скрипты под MIT (https://github.com/phillip-motion/Canvalry-scripts). Пользователи бесплатного софта плохо платят, маркетплейса для продажи ассетов Cavalry нет."
+   },
+   {
+    "name": "Контент для immersive dining / table-mapping в отелях Бали (новая, проверена и отклонена)",
+    "reason": "Le Petit Chef уже работает в 135+ заведениях (https://location.lepetitchef.com/, 2026). Китайские вендоры (KLEADER — 30+ тем, https://www.klmultimedia.com/mapping-restaurant.html) и POGUMAX (https://pogumax.com/table-mapping) продают готовые шоу, пакеты контента стоят от €19 (выдача 2026-09-26). Нужен монтаж на месте, что противоречит модели 2–4 ч/нед."
+   },
+   {
+    "name": "Онлайн-школа или курс AI-моушна (новая, проверена и отклонена)",
+    "reason": "Рынок занят: у Curious Refuge около 10 тыс. студентов и подписка $149/мес на все курсы (https://curiousrefuge.com/, 2026), есть UCLA Extension и буткемпы за $1 499. Контент устаревает каждые 6 месяцев вслед за моделями, поэтому обновления и поддержка съедят бюджет времени. Образование годится только как бесплатный лид-магнит."
+   }
+  ],
+  "portfolio_note": "1) Октябрь–ноябрь 2026: Oblique Pro (UXP-first, выход к бете UXP) и сразу Pipeline Radar. Первый продукт собирает деньги в окне 12–18 месяцев, второй превращает базу Oblique в постоянный канал к студиям и авторам плагинов. 2) Декабрь 2026 – январь 2027: на той же аудитории запускается UXP Rescue Desk. Методика собственной миграции Oblique становится услугой: код пишет Claude Code, тесты гоняет QA-подрядчик, окно до 12.2028–12.2029 задано графиком Adobe. 3) Параллельно стартует 3D-линия силами ассистентов студии: White-label Desk для 1–2 операторов Джакарты или Сингапура и 3D Cheering Ads (шаблоны под 3–5 экранов). Обе услуги загружают команду и попутно создают цифровые двойники экранов. 4) С первого квартала 2027 эти двойники и замеры бесплатно наполняют SEA Screen Atlas и 3D Loop Library, поэтому для каталога не нужна отдельная полевая работа. 5) Первое–второе полугодие 2027: Take Ledger и License Atlas на общей базе данных. Продаются через aescripts и Radar, опираются на растущий спрос на раскрытие AI по ст. 50. 6) Для кэш-флоу к британскому налоговому году 6 апреля 2027 — CrewRate (опрос ставок через базу Oblique) и калькуляторы с другом по разделу выручки. Versioning Desk и Brand Motion System запускать только после того, как найден оператор или ассистент-исполнитель, иначе они съедят время основателя. Вернисаж — опцион на весну 2027, если есть пилотная школа на Бали. Общая логика: каждый продукт отдаёт следующему актив (email-лист, данные экранов, двойники, базу лицензий), поэтому поддержка укладывается в 2–4 ч/нед на продукт, а клон одного продукта не рушит портфель."
+ },
+ {
+  "lens": "data_calculators",
+  "shortlist": [
+   {
+    "name": "UXP Radar: матрица совместимости плагинов AE/Premiere на окно миграции CEP→UXP 2026–2029",
+    "is_new": false,
+    "candidate_refs": [
+     14,
+     30,
+     19
+    ],
+    "one_liner": "Публичная датированная база «плагин × версия AE/PR × CEP/UXP × Apple Silicon/WinARM», бесплатная рассылка «что сломается в следующем релизе», платные алерты по списку плагинов конкретной студии и апселл «порт вашего скрипта на UXP» через партнёров.",
+    "type": "AB",
+    "format": "Сайт и рассылка (бесплатно). Studio pack $9–19/мес или $99/год (оценка): скрипт-сканер установленных плагинов AE, персональный отчёт и алерты. Спонсорские листинги «UXP-ready» для разработчиков, аффилиаты aescripts. Оплата через Paddle/Polar.",
+    "buyer_and_pain": "Платят пайплайн-TD и владельцы студий на 5–50 мест, которые боятся обновлять AE, фрилансеры со стеком из 20–60 плагинов и разработчики плагинов, которым нужна видимость. Боль: CEP выключат по умолчанию в 12.2028 и удалят в 12.2029, Rosetta 2 уходит в 2027, каждый апдейт ломает часть стека, а сводного источника нет.",
+    "why_it_wins": "Моат: накопленная история совместимости по версиям (задним числом её не восстановить), данные от самих разработчиков и доверие основателя как продавца на aescripts. Для Adobe ниша слишком мелкая. Канал: база покупателей Oblique, сообщество разработчиков aescripts, AE-группы. Выживание при AIO: статуса конкретного плагина в конкретной бете нет в открытом вебе, пока его не проверят. Персональный отчёт по своему стеку и алерты не дают «универсального ответа». Окно миграции совпадает с горизонтом 2027–2029.",
+    "key_evidence": "Сроки Adobe: UXP-бета в AE к 11.2026, CEP выключен по умолчанию с 12.2028, удалён с 12.2029 (https://blog.developer.adobe.com/en/publish/2026/09/investing-in-the-future-of-creative-cloud-extensibility-uxp-comes-to-our-flagship-applications, 2026-09). Поиск 2026-09-26: централизованного трекера UXP/AE 26 нет, есть только разрозненные страницы вендоров (https://fxfactory.com/products/applesilicon/aftereffects/). Формат уже работает у аудио-плагинов: сканер совместимости с Apple Silicon от ProducerGrid (https://producergrid.com/blog/apple-silicon-plugin-compatibility-2026/, 2026). Hyper Brew продаёт миграцию и сделал aescripts UXP Framework (https://hyperbrew.co/projects/aescripts-uxp-framework/). Прокси спроса: aescripts.com стабильно в мировом топ-100k CrUX 2023–2026 (https://github.com/zakird/crux-top-lists). Объём поиска — нет данных.",
+    "main_risk": "Платящая аудитория маленькая, монетизация скорее через спонсоров. aescripts может встроить фильтр совместимости у себя. Ручная проверка сотен плагинов не уложится в 4 ч/нед без присылаемых разработчиками данных. После 2029 ценность падает.",
+    "prelim_scores": {
+     "expertise": 4,
+     "demand": 2,
+     "freeness": 5,
+     "clone": 3,
+     "platform": 3,
+     "speed": 5,
+     "support": 3,
+     "unit_econ": 2,
+     "channels": 3,
+     "payments_reg": 5,
+     "viability": 3
+    }
+   },
+   {
+    "name": "Deliverable Clearance Report: паспорт прав на ролик (AI-модели, шрифты, музыка, сток) в PDF для юриста клиента",
+    "is_new": false,
+    "candidate_refs": [
+     3,
+     12,
+     31,
+     42,
+     94
+    ],
+    "one_liner": "UXP-панель AE/Premiere плюс веб. Сканирует проект (шрифты, футаж, аудио, слои с метаданными AI-генерации) и сверяет его с датированной базой лицензий: у моделей гео- и выручечные исключения, у шрифтов тиры desktop/broadcast/app, у музыки и стока тарифы. На выходе PDF «чем сделано и где это можно использовать (ЕС/UK/US)» и готовый текст AI-раскрытия по ст. 50 AI Act, закону Нью-Йорка и правилам SAG-AFTRA.",
+    "type": "AB",
+    "format": "Панель на aescripts за $49–79 плюс веб-подписка $19–49/мес или $29 за проект (оценка). Бесплатная SEO-база «можно ли коммерчески использовать X» работает как воронка. Данные берутся из GenMedia Model Passport.",
+    "buyer_and_pain": "Моушн-студии и фрилансеры в UK и ЕС, которые сдают брендам ролики с AI-планами, и продюсеры агентств. Боль: юрист клиента спрашивает «чем сделано и можно ли в ЕС». HunyuanVideo исключает EU/UK/KR даже для выхода, LTX бесплатна только до $10 млн выручки, у MiniMax H3 есть гео-исключения. Шрифтовые EULA различают broadcast и app. Ручная маркировка в AE нигде не документируется.",
+    "why_it_wins": "Моат: регуляторная сложность, история изменений лицензий и ToS и встроенность в AE-проект. Основатель знает, из чего состоит .aep. Content Credentials от Adobe не покрывают чужие лицензии. Канал: база Oblique на aescripts и продюсеры агентств. Выживание при AIO: отчёт строится по конкретному проекту, это персональный рабочий артефакт. Общая SEO-база нужна только как воронка.",
+    "key_evidence": "Лицензия HunyuanVideo 1.5 исключает EU/UK/KR, в том числе для Output (https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5/blob/main/LICENSE, 2025-11-21). LTX-2.x бесплатна до $10 млн выручки (https://github.com/Lightricks/LTX-2/blob/main/LICENSE-2_x, 2026-08-11). Переходный период маркировки по ст. 50(2) — до 2026-12-02 (https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-article50-watermarking-deadline/, 2026). 58% креативщиков использовали AI без раскрытия (https://elements.envato.com/learn/ai-trend-report, 2025-11-11). Юрист клиента отклонил сервис после AI-проверки (r/MotionDesign, 2026; поток motion_industry). Контентный слой уже конкурентен: https://vidpros.com/ai-platforms-rights/, https://www.layer3labs.io/resources/ai-model-origins, статья arturmarkus «5 AI video models ranked by what an EU studio can legally ship» (2026). SaaS-отчёта для студий поиск 2026-09-26 не нашёл. Прокси спроса по шрифтам: identifont и fontsinuse держатся в топ-50k US/GB (CrUX 2026-08).",
+    "main_risk": "Ответственность за ошибку: основатель не юрист, нужны дисклеймер «информационный инструмент» и рецензент. Платящий спрос не подтверждён, до разработки нужны 10 интервью с продюсерами в UK/ЕС. Adobe может расширить Content Credentials. Digital Omnibus может сдвинуть сроки.",
+    "prelim_scores": {
+     "expertise": 4,
+     "demand": 3,
+     "freeness": 3,
+     "clone": 3,
+     "platform": 2,
+     "speed": 3,
+     "support": 3,
+     "unit_econ": 4,
+     "channels": 3,
+     "payments_reg": 4,
+     "viability": 4
+    }
+   },
+   {
+    "name": "Screen Atlas ЮВА + Spec Packs: атлас 3D/LED-экранов с геометрией, правилами показа и платными сценами под конкретный экран",
+    "is_new": false,
+    "candidate_refs": [
+     5,
+     9,
+     16,
+     29,
+     32,
+     34,
+     35,
+     56,
+     61,
+     62,
+     74,
+     75,
+     76,
+     79
+    ],
+    "one_liner": "Каталог премиальных и 3D-экранов ЮВА и Ближнего Востока с полями, которых нет ни у кого: геометрия граней, точка обзора, pixel map, разрешены ли движение и звук, dwell time, лимиты яркости, сроки модерации. К нему бесплатный калькулятор LED-канваса, платные spec-паки со сценой AE/Blender под конкретный экран и RFQ в студию основателя.",
+    "type": "AB",
+    "format": "SEO-каталог (страница на экран и на город), калькулятор «размер + pitch → канвас, дистанция, битрейт», бесплатный JSON/MCP для агентов медиапланирования. Spec-пак стоит $29–49 за экран или $99–199 за город (оценка), продаётся через Polar/Paddle. RFQ даёт лиды студии и операторам. Обновление раз в квартал.",
+    "buyer_and_pain": "Первая группа платящих: фрилансеры и студии среднего сегмента, которые впервые делают анаморф (гиги на Fiverr по $70–600), им нужна точная сцена экрана. Вторая: бренды и агентства, которые заказывают продакшн в студии за $8–60k. Боль: разрешения нестандартные (COEX ~7840×1952), владельцы присылают PDF с ошибками, правила показа различаются по городам, модерация занимает 1–10 дней.",
+    "why_it_wins": "Моат: полевые данные студии (замеры, фото с точки обзора, отношения с владельцами), которые кодом не скопировать. В APAC больше 98% DOOH продаётся напрямую, поэтому связи и данные об экранах здесь стоят дороже, чем в программатике. Канал: студия, LinkedIn операторов, FOOH-сообщество, длинный хвост запросов «[экран] specs». Выживание при AIO: геометрии и правил конкретного экрана нет в открытом вебе, так что AIO нечего пересказывать. Ценность лежит в скачиваемых файлах и RFQ.",
+    "key_evidence": "Прокси спроса: нишевые DOOH-справочники вне топ-1M CrUX, adquick.com — 500k US (https://github.com/zakird/crux-top-lists, 2026-08), значит, объём маленький. FOOH.com удвоил каталог до 138–139 экранов в 63 городах (https://fooh.com/directories/screens, 2026-09). aescripts выпустил Naked-Eye 3D (~2026-05) и продаёт LED Architect за $99,99 (https://aescripts.com/led-architect/): инструменты есть, пакетов под конкретный экран нет. В OpenOOH нет полей 3D-геометрии (https://github.com/openooh/venue-taxonomy, 2026-09-24). Доля pDOOH в APAC — 1,7% (https://www.worldooh.org/news/woo-global-pdooh-spend-study-2025, 2026-09). Правила показа разные: в США full motion на придорожных щитах запрещён, 8 с dwell фактически минимум, в Tulsa запрещена любая анимация (https://www.whistlerbillboards.com/friday-feature/digital-billboard-display-rules-and-regulations/, 2026). US DOOH вырос на 18,5% в Q2 2026 (https://ppc.land/us-out-of-home-revenue-tops-3-billion-for-first-time-up-10-7/).",
+    "main_risk": "TAM маленький: 500–1 500 3D-экранов вне Китая, spec-паки дадут около $5–30k в год (оценка). Полевые обновления спорят с лимитом 2–4 ч/нед. FOOH.com может расширить покрытие ЮВА. Публиковать спецификации без согласия владельцев рискованно. По сути это лидоген студии, а не самоходный доход.",
+    "prelim_scores": {
+     "expertise": 4,
+     "demand": 2,
+     "freeness": 3,
+     "clone": 4,
+     "platform": 4,
+     "speed": 3,
+     "support": 2,
+     "unit_econ": 3,
+     "channels": 3,
+     "payments_reg": 4,
+     "viability": 4
+    }
+   },
+   {
+    "name": "SpecCheck: файловый QC сдачи под CTV, DOOH и соцсети с PDF-отчётом для клиента",
+    "is_new": false,
+    "candidate_refs": [
+     18,
+     28,
+     57,
+     76,
+     92
+    ],
+    "one_liner": "Пользователь перетаскивает рендер, проверка идёт в браузере через ffprobe/WASM без загрузки на сервер. Ответ «пройдёт/не пройдёт» по датированной базе требований: CTV (LUFS, кодек, битрейт, слейты), DOOH-сети и конкретные экраны из Screen Atlas, соцсети. Есть PDF для клиента, пакетная проверка всех версий кампании, а позже UXP-панель экспорта и CLI/MCP.",
+    "type": "AB",
+    "format": "Freemium-веб: соло $9–19/мес, команда $49/мес (оценка), через Paddle. Бесплатные safe-zone-оверлеи используются только как воронка. Позже UXP-панель на aescripts.",
+    "buyer_and_pain": "Моушн-фрилансеры и студии, которые сдают 10–40 версий на кампанию, и продакшн-координаторы. Боль: площадки и операторы отклоняют файлы (у Vistar лимит 10 МБ на статику и 50 МБ на видео, модерация 1–5 дней), переделки из-за LUFS, кодека или лупа, у каждого DOOH-оператора свои требования.",
+    "why_it_wins": "По CrUX файловые утилиты растут, а «ответные» справочники тонут. Продукт выполняет работу над файлом, и проверку конкретного файла невозможно сделать в SERP, поэтому он выживает при AIO. Моат: база требований с эксклюзивными DOOH-данными из студии и формат отчёта, которому доверяют клиенты. Канал: aescripts/Oblique, бесплатные оверлеи, запросы «[площадка] delivery specs».",
+    "key_evidence": "Мировой CrUX: freeconvert.com поднялся 50k→5k, ilovepdf и remove.bg держатся в топ-1k, а convertunits упал 50k→1M (01.2023→08.2026, https://github.com/zakird/crux-top-lists). За соседний конвейер платят: Plainly $69–649/мес (https://www.capterra.com/p/10026817/Plainly/), Nexrender от €99/мес. Требования DOOH: https://bdooh.com/research/dooh-creative-spec-reference/ (2026). Safe zones соцсетей — уже красный океан: минимум 6 сайтов раздают оверлеи бесплатно (FileFlippers, Kreatli, PostPlanify, EasyEdit, reloop, createcomfy), плюс Automation Blocks (https://fileflippers.com/tools/safe-zones, https://kreatli.com/guides/safe-zone-guide, 2026). В Adobe Community висит запрос на встроенные safe zones (https://community.adobe.com/feature-requests-530/safezones-for-current-social-media-platforms-pleeeaaaaase-1215022). Поэтому платная ценность только в QC под CTV/DOOH и в отчёте.",
+    "main_risk": "Фрилансеры плохо платят за QC. Платформы сами обрезают и перекодируют файлы. AME или Frame.io могут добавить проверки. Спецификации соцсетей публичны и легко копируются.",
+    "prelim_scores": {
+     "expertise": 5,
+     "demand": 3,
+     "freeness": 2,
+     "clone": 2,
+     "platform": 2,
+     "speed": 4,
+     "support": 3,
+     "unit_econ": 3,
+     "channels": 3,
+     "payments_reg": 5,
+     "viability": 3
+    }
+   },
+   {
+    "name": "GenMedia Model Passport: реестр генмоделей (цена по каналам, закрытия, лицензия и гео, возможности) с API/MCP и алертами",
+    "is_new": false,
+    "candidate_refs": [
+     1,
+     7,
+     15,
+     39,
+     72
+    ],
+    "one_liner": "Страница-паспорт на каждую видео- и имидж-модель: цена за секунду или изображение у вендора, у реселлеров (fal, Runway API) и в рознице агрегаторов в $ (Magnific, Higgsfield, Firefly), дата закрытия, лицензия, гео- и выручечные исключения, ограничения по аспектам, длине, HDR/EXR и альфе. Данные отдаются как JSON-API и MCP, плюс алерты «ваша модель закрывается» и «ваша модель подешевела». Персональный оптимизатор плана считает, какой канал дешевле для моего микса моделей и объёма.",
+    "type": "B",
+    "format": "SEO-сайт и рассылка (бесплатно). Алерты и API/CSV — $19–49/мес для студий и инди-разработчиков, от $99/мес для тулов (оценка). Бесплатный MCP как канал. Внутри портфеля служит слоем данных для Clearance Report и Take Ledger.",
+    "buyer_and_pain": "Продюсеры AI-студий, агентства, разработчики креативных тулов и агентов. Боль: цена одной модели отличается в 2–3 раза в зависимости от канала (Veo 3.1 Fast стоит $0,10/с у Google и $0,15 в Runway API; GPT Image 2.5 в Magnific в 4,8–7,6 раза дороже API). Кредиты непрозрачны. Около 20 закрытий моделей за 12 месяцев ломают пайплайны.",
+    "why_it_wins": "Моат: история розничных цен агрегаторов в $ с 2026 года (задним числом не восстановить; у основателя есть подписки и MCP-доступ с simulate_cost), скорость (LiteLLM отстаёт на 4–5 мес) и связка с лицензиями. Выживание при AIO: вопрос «сколько стоит Veo» AIO заберёт, поэтому деньги не в странице, а в алертах, API и многопараметрическом оптимизаторе. Канал: цитирование в LLM, рассылка продюсерам, MCP-реестр.",
+    "key_evidence": "Прокси спроса: artificialanalysis.ai вырос в CrUX US с 500k до 50k (01.2025→08.2026), а costgoat вне топ-1M (https://github.com/zakird/crux-top-lists): выигрывает владелец данных. SEO-ниша цен переполнена: поиск 2026-09-26 нашёл минимум 9 страниц за 08–09.2026 (apiframe, atlascloud, buildmvpfast, seeles.ai с «price per usable shot», ltx, fluxnote, morphed, crazyrouter; https://www.seeles.ai/resources/blogs/ai-video-generation-cost, https://apiframe.ai/blog/ai-video-api-pricing-2026). LiteLLM: около 20 закрытий за 12 мес, отставание 4–5 мес, нет Kling, Wan, Luma (https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json, 2026-09-25). Розница Magnific к API — от 0,35 до 7,6 раза (simulate_cost, 2026-09-26). Sora API закрыт 2026-09-24. Бесплатные конкуренты: fal-model-atlas (332 эндпоинта) и awesome-ai-video-models (195★).",
+    "main_risk": "Готовность платить низкая, пока есть бесплатные данные, пусть и хуже. ToS агрегаторов могут запрещать автосбор. AA или OpenRouter могут добавить алерты. Парсинг 50+ моделей без полной автоматизации не уложится в 4 ч/нед.",
+    "prelim_scores": {
+     "expertise": 3,
+     "demand": 3,
+     "freeness": 2,
+     "clone": 3,
+     "platform": 3,
+     "speed": 4,
+     "support": 2,
+     "unit_econ": 2,
+     "channels": 3,
+     "payments_reg": 5,
+     "viability": 3
+    }
+   },
+   {
+    "name": "Creative Rate Desk: ставки моушн/3D/AI-гибридных работ из собственного опроса + «сколько брать, чтобы получить X на руки» + PDF-смета",
+    "is_new": false,
+    "candidate_refs": [
+     25,
+     27,
+     32,
+     40,
+     95
+    ],
+    "one_liner": "Ежеквартальный анонимный опрос ставок в сообществе основателя: за секунду, за версию, за AI-гибридный шот, дневные ставки по странам и опыту. Из опроса строится публичный индекс и калькулятор «целевой доход → дневная ставка → налог по форме занятости» (UK Ltd или sole trader, DE Freiberufler, NL ZZP, AU ABN), который выдаёт PDF-квоту для клиента.",
+    "type": "AB",
+    "format": "Сайт с калькуляторами и рассылкой. Платный годовой отчёт $29–49 (оценка). Реклама с финансовым RPM в UK/AU, аффилиаты бухгалтерского ПО (условия FreeAgent и Xero — проверить), лиды бухгалтерам для креативных Ltd, embed для школ моушна.",
+    "buyer_and_pain": "Креативные фрилансеры (моушн, 3D, монтаж), студии и клиенты, которые прикидывают бюджет. Боль: разброс от «$10 за интро» до «$150 за секунду», AI сломал старые прайсы, неясно, какая форма занятости выгоднее после повышения налогов на дивиденды.",
+    "why_it_wins": "Моат: собственный датасет ставок, который растёт с каждым опросом и которого нет у AIO, плюс доверие сообщества и годовой ритм выпусков. Выживание при AIO: расчёт многопараметрический и персональный, а PDF-квота — рабочий артефакт. Одношаговые запросы вида «motion designer day rate» AIO заберёт, на них не целиться. Канал: сообщество Oblique/aescripts, LinkedIn.",
+    "key_evidence": "Прокси спроса: contractorcalculator.co.uk стабильно в топ-50k GB (01.2025–08.2026), когорта pay/tax в GB выросла в топ-1M со 120 до 134 (https://github.com/zakird/crux-top-lists). Конкуренты, найденные поиском 2026-09-26: YunoJuno (https://www.yunojuno.com/freelancer-rates-job-role/motion-graphics-designer), Malt 2026 rate grid (https://www.malt.uk/t/average-freelance-rates/sound-visual-expert/motion-designer), therateguide.com, itjobswatch (медиана £388/день для remote, 2025). Для UK-съёмочных бригад APA уже закрыт приложением TimeMachine: калькулятор, инвойс, учтено повышение APA на 3% с 2026-09-01 (https://timemachineapp.co.uk/articles/apa-rates-2026). Поэтому идея CrewRate сужена до моушна, 3D и AI, где рейт-карт нет. Creative Boom 2026: 47% самозанятых зарабатывают меньше £30k (https://www.creativeboom.com/news/the-state-of-the-creative-industry-2026-what-our-survey-tells-us-about-money-burnout-and-ai/, 2026-06-29).",
+    "main_risk": "Не-финансовый трафик даёт низкий RPM. Для доверия нужно 300+ ответов в квартал. Налоговая часть — YMYL. У YunoJuno и Malt есть реальные контрактные данные.",
+    "prelim_scores": {
+     "expertise": 4,
+     "demand": 3,
+     "freeness": 2,
+     "clone": 2,
+     "platform": 3,
+     "speed": 4,
+     "support": 4,
+     "unit_econ": 2,
+     "channels": 3,
+     "payments_reg": 5,
+     "viability": 3
+    }
+   },
+   {
+    "name": "Indie Seller Stack Finder: какой MoR, маркетплейс и способ выплаты подходят под вашу страну, тип продукта и директора-нерезидента",
+    "is_new": false,
+    "candidate_refs": [
+     41,
+     53
+    ],
+    "one_liner": "Решатель: на вход страна компании и страна проживания директора, тип продукта (AI-генерация, плагин, SaaS, шаблоны, данные) и способ вывода (Payoneer, Wise, банк). На выходе список совместимых MoR и маркетплейсов с запретами по категориям, реальная чистая сумма с продажи на $100, чек-лист регистрации и датированный журнал изменений правил.",
+    "type": "B",
+    "format": "SEO-сайт, база правил с ежемесячным обновлением, рассылка «изменения правил MoR». Монетизация: партнёрки MoR (у Dodo recurring-комиссия с потолком $1 000 или 1 год на мерчанта), реклама, платные гайды за $19–29, лиды бухгалтерам для UK Ltd с директором-нерезидентом.",
+    "buyer_and_pain": "Инди-разработчики и креаторы из стран без Stripe или с директорами-нерезидентами (Индонезия, Индия, Пакистан, СНГ, ЛатАм, номады с UK Ltd). Боль: Paddle запрещает AI-генераторы изображений, Gumroad не платит на Payoneer, Apple требует настоящий UK-счёт, EU VAT начисляется с первого евро. Ошибка стоит месяцев.",
+    "why_it_wins": "Моат: правила проверены на собственном опыте (UK Ltd + Payoneer + Бали, тестовые выплаты), позиция нейтральна в отличие от блогов самих MoR. Выживание при AIO: вопрос многопараметрический (страна × продукт × выплата) и быстро меняется, ценность в матрице с датами проверки и в алертах. Канал: инди-хакер сообщества, X, Reddit.",
+    "key_evidence": "Сами MoR массово пишут SEO под эти запросы: у Dodo статьи «Stripe Supported Countries 2026» и «sell software from Pakistan», у Creem «Best MoR for SaaS 2026» (поток payments_legal, 2026). Это признак коммерческого спроса. Партнёрская программа Dodo: recurring-комиссии, потолок $1 000 или 1 год, выплата от $50 (https://dodopayments.com/partner-program, https://dodopayments.com/legal/partner-program-terms-and-conditions, 2026). Правила: Paddle ограничивает AI-приложения (https://freemius.com/blog/payment-platform-restrictions-ai-apps/, 2026), Creem берёт 3,9% + 40¢ (https://www.creem.io/pricing). Конкурент — бесплатный merchantofrecordfinder.com. Объём поиска — нет данных.",
+    "main_risk": "Партнёрки с потолком дают малую выручку. MoR доминируют в выдаче своими статьями. Правила меняются ежемесячно, и ошибка бьёт по доверию. Идея далеко от A-экспертизы.",
+    "prelim_scores": {
+     "expertise": 3,
+     "demand": 3,
+     "freeness": 3,
+     "clone": 2,
+     "platform": 3,
+     "speed": 5,
+     "support": 3,
+     "unit_econ": 3,
+     "channels": 3,
+     "payments_reg": 5,
+     "viability": 3
+    }
+   },
+   {
+    "name": "Production Yield Benchmark: независимый ежемесячный замер «$ за годную секунду» по шкале дефектов моушн-директора",
+    "is_new": false,
+    "candidate_refs": [
+     2,
+     8,
+     13
+    ],
+    "one_liner": "Каждый месяц 40–60 типовых брендовых планов (продукт, лицо, логотип, текст, камера) прогоняются через 10–15 моделей. Первичную оценку по шкале дефектов даёт vision-LLM, основатель проверяет выборку. Результат: доля годных дублей для соцсетей и для рекламы и «$ за годную секунду» по каждому каналу покупки (цены берутся из Model Passport).",
+    "type": "AB",
+    "format": "Бесплатный топ для SEO и PR. Платный ежемесячный отчёт и дашборд — $29–99/мес для студий и агентств (оценка). Лицензия данных для медиа и тулов.",
+    "buyer_and_pain": "Продюсеры AI-студий и агентств, которые каждую неделю выбирают модель под план и тратят часы и кредиты на пробы. Арены меряют «нравится», а не «можно сдать клиенту».",
+    "why_it_wins": "Моат: взгляд моушн-дизайнера (шкала «можно ли сдать клиенту»), архив прогонов по месяцам и связка с розничными ценами. Выживание при AIO: это первичные данные, которых нет в вебе, пересказать их AIO не может. Канал: рассылка, цитирование в медиа, LinkedIn продюсеров.",
+    "key_evidence": "По данным invideo (заинтересованный источник): 3–8 попыток на hero-план, в монтаж попадает около 25% клипов, для рекламы годны 4–5% (https://invideo.io/faq/what-percentage-of-ai-generated-video-clips-are-actually-2/, 2026). Coca-Cola в 2025 году перебрала 70 000+ клипов (https://www.thewrap.com/coca-cola-ai-christmas-ad-2025/, 2025-11). Лидеры рейтинга сменились за 6 месяцев (https://artificialanalysis.ai/video/leaderboard/text-to-video, 2026-09). Поиск 2026-09-26: seeles.ai уже публикует «price per usable shot» как SEO-статью (https://www.seeles.ai/resources/blogs/ai-video-generation-cost). Метрика востребована, но независимого бенчмарка с архивом нет.",
+    "main_risk": "До выручки генерация стоит $200–2 700/мес. Смягчение — безлимиты Higgsfield или Firefly Premium, если их ToS разрешают публиковать результаты. Оценки спорны. AA может добавить похожий рейтинг. Для ручной проверки 2–4 ч/нед мало.",
+    "prelim_scores": {
+     "expertise": 5,
+     "demand": 2,
+     "freeness": 3,
+     "clone": 4,
+     "platform": 3,
+     "speed": 3,
+     "support": 2,
+     "unit_econ": 2,
+     "channels": 3,
+     "payments_reg": 4,
+     "viability": 3
+    }
+   },
+   {
+    "name": "Motion Plugin Price Radar: история цен и алерты скидок на плагины и скрипты для AE, Premiere, C4D, Blender",
+    "is_new": true,
+    "candidate_refs": [
+     67,
+     14
+    ],
+    "one_liner": "«camelcamelcamel для моушн-плагинов»: ежедневно собираются цены и распродажи aescripts, Toolfarm, Maxon/Red Giant, Boris FX, Video Copilot, FxFactory, Superhive (Blender Market), Envato. Есть история цены, оценка «хорошая ли это скидка», вишлист с email-алертом и календарь сезонных распродаж.",
+    "type": "B",
+    "format": "Сайт, рассылка и браузерное расширение. Аффилиатные ссылки (партнёрка aescripts существует, остальные — проверить) и спонсорские «deal of the week» от разработчиков. Сборка за 1–2 недели.",
+    "buyer_and_pain": "Фрилансеры и студии, которые покупают плагины по $50–1 000 и ждут распродаж, и разработчики, которым нужен канал анонсов. Боль: цены и акции разбросаны по 10+ магазинам, непонятно, ждать ли Black Friday.",
+    "why_it_wins": "Моат: накопленная история цен (задним числом не восстановить) и email-лист покупателей плагинов, который становится общим активом всего портфеля (канал для UXP Radar, SpecCheck, Clearance). Для крупных игроков ниша слишком мала. Выживание при AIO: историю цены и персональный вишлист в SERP не получить, алерты живут в почте.",
+    "key_evidence": "Прокси спроса: aescripts.com стабильно в мировом топ-100k CrUX 2023–2026, motionarray.com опустился с 50k до 100k (https://github.com/zakird/crux-top-lists, 2026-08). У aescripts есть партнёрская программа (поток seo_utilities). Цены высокие, поэтому абсолютная экономия на скидке заметна: RE:Vision DE:Flicker $249,95, Flicker Free $199, Topaz Video $299/год, Deep Glow 2 $99,95 (потоки gen_ai и motion_industry, 2026). В аудио-плагинах агрегаторы скидок — устоявшаяся категория (знание модели, проверить). Поиск конкурентов для моушна не выполнен из-за исчерпанного лимита — нет данных.",
+    "main_risk": "Главный риск — спрос не проверен. ToS магазинов могут запрещать скрейпинг. Аффилиатные комиссии малы, выплаты на Payoneer не проверены. aescripts может сам показывать историю цен.",
+    "prelim_scores": {
+     "expertise": 4,
+     "demand": 2,
+     "freeness": 3,
+     "clone": 3,
+     "platform": 3,
+     "speed": 5,
+     "support": 4,
+     "unit_econ": 2,
+     "channels": 3,
+     "payments_reg": 4,
+     "viability": 3
+    }
+   },
+   {
+    "name": "Lottie & Sticker Preflight: матрица ограничений Lottie-плееров и стикер-платформ + проверка файла",
+    "is_new": false,
+    "candidate_refs": [
+     38,
+     73
+    ],
+    "one_liner": "Датированная матрица «функция AE/Lottie × плеер (lottie-web, iOS, Android, dotLottie, Telegram TGS, WhatsApp, экспорт Figma Motion)» и лимитов стикер-платформ (размер, fps, длительность, габариты). К ней веб-проверка JSON/TGS и AE-скрипт, который находит неподдерживаемые функции и запекает их.",
+    "type": "AB",
+    "format": "Бесплатный веб-валидатор как SEO-канал, AE-скрипт за $19–29 на aescripts, позже пакет шаблонов стикеров. Дешёвый эксперимент на 1–2 недели.",
+    "buyer_and_pain": "Продуктовые моушн-дизайнеры, у которых анимация «ломается» у разработчиков, и авторы Telegram-стикеров и эмодзи. Боль: экспорт не проходит лимиты, выражения и эффекты не поддерживаются, и это выясняется только после передачи.",
+    "why_it_wins": "Проверка идёт по файлу, поэтому переживает AIO. Матрица обновляется по релизам плееров. Глубина в узком AE-процессе. Канал: aescripts, сообщества стикер-авторов.",
+    "key_evidence": "В lottie-web 788 открытых issues, из них 108 «not supported» (https://github.com/airbnb/lottie-web, 2026-09-26). Конвертеры востребованы: lottie-converter — 1 038★, LottieViewConvert — 634★ (https://github.com/ed-asriyan/lottie-converter, 2026-09-26). Предэкспортная проверка — 19 репозиториев без лидера. Бесплатные конкуренты: Bodymovin, плагин LottieFiles, tgskit. Готовность платить — нет данных.",
+    "main_risk": "Низкий чек и бесплатные альтернативы. Figma Motion и LottieFiles закрывают сценарий. Горизонт 12–24 месяца.",
+    "prelim_scores": {
+     "expertise": 4,
+     "demand": 2,
+     "freeness": 3,
+     "clone": 2,
+     "platform": 2,
+     "speed": 5,
+     "support": 4,
+     "unit_econ": 2,
+     "channels": 3,
+     "payments_reg": 5,
+     "viability": 2
+    }
+   },
+   {
+    "name": "RuleDiff: машиночитаемая лента изменений налоговых и зарплатных правил для калькуляторных сетей, payroll-SaaS и агентов (API/MCP)",
+    "is_new": true,
+    "candidate_refs": [
+     26
+    ],
+    "one_liner": "Мониторинг официальных источников (HMRC, ATO/Fair Work, IRD, Revenue.ie, IRS, публикации pay awards). Изменения превращаются в структурированные диффы (пороги, ставки, шкалы) в JSON с тест-векторами и датой вступления. Продаётся подпиской владельцам калькуляторных сайтов и мелким HR/payroll-SaaS, для AI-агентов есть MCP. Чистый тип B в модели друга, но B2B-слоем.",
+    "type": "B",
+    "format": "API, вебхуки или CSV за $49–199/мес (оценка) через Paddle/Polar. Бесплатный публичный changelog для SEO и доверия. Делать только в партнёрстве с другом: у него уже есть движки для 10–20 сайтов и тест-кейсы.",
+    "buyer_and_pain": "Операторы калькуляторных сайтов, разработчики HR- и fintech-приложений, AI-агенты. Боль: единственный ров калькулятора — скорость и точность обновления, мультистрановые сети покрывают новые правила за недели, а ручная сверка PDF-эвордов и циркуляров дорогая.",
+    "why_it_wins": "Это «лопаты» для золотой лихорадки калькуляторов: чем больше клонов, тем больше покупателей точных данных. Моат: тест-векторы, история изменений, скорость. Доход B2B и от CTR Google не зависит, поэтому generative UI не угроза, а Google и агенты скорее потенциальные потребители данных.",
+    "key_evidence": "Поиск 2026-09-26 подтвердил скорость клонирования. countrytaxcalc.com уже закрыл и US «no tax on tips» (финальные правила TD 10044 от 2026-06-12), и нидерландское снижение льготы 30%→27% (https://www.countrytaxcalc.com/tax-calculator/usa/no-tax-on-tips/, https://www.countrytaxcalc.com/tax-calculator/netherlands/30-percent-ruling/). По шкалам UK Armed Forces 2026/27 уже 8+ калькуляторов (taxdcal, paytoolkit, publicsectorcalculators, salarytax.uk, payslipiq и др.), то есть операторы соревнуются в скорости. На GitHub 14 MCP-серверов налоговых калькуляторов, включая estv-mcp (https://github.com/noaahh/estv-mcp, 2026-07) и irish-tax-mcp (2026-05). Когорта pay/tax в GB выросла со 120 до 134 (CrUX). Расчётные API продаются: SalaryAPI.com (net-salary, https://salaryapi.com/), Symmetry (US). Ленты изменений правил для инди не найдено. Прямой спрос — нет данных.",
+    "main_risk": "У основателя нулевая экспертиза, поэтому только партнёрство с другом. Ответственность за ошибку в данных. Покупателей мало, и они экономны. Госорганы сами выпускают калькуляторы.",
+    "prelim_scores": {
+     "expertise": 1,
+     "demand": 2,
+     "freeness": 3,
+     "clone": 3,
+     "platform": 4,
+     "speed": 3,
+     "support": 2,
+     "unit_econ": 4,
+     "channels": 2,
+     "payments_reg": 5,
+     "viability": 3
+    }
+   },
+   {
+    "name": "Award Check AU: проверка расчётного листка и ростера на недоплату по Modern Awards (в браузере, без хранения)",
+    "is_new": true,
+    "candidate_refs": [
+     26
+    ],
+    "one_liner": "Работник загружает payslip (PDF или фото, обработка локально) или вводит ростер. Сервис сверяет ставки, penalty rates, переработки и надбавки с нужным Modern Award и выдаёт отчёт «вам недоплатили $X» и шаблон письма работодателю. Малый бизнес платит за проверку своих ростеров.",
+    "type": "B",
+    "format": "Веб-приложение. Для работников бесплатно: реклама с AU-финансовым RPM и лиды профсоюзам и юристам по недоплатам. Для малого бизнеса (кафе, клиники) — $19–49/мес за Award-комплаенс ростера через Paddle. Делать в партнёрстве с другом.",
+    "buyer_and_pain": "Работники hospitality, retail и nursing в Австралии с ростерами на выходные и ночи, а также малые работодатели. Боль: penalty rates от 1,125 до 2,5×, десятки Awards, недоплата с 2025 года — уголовное преступление (знание модели, проверить), а вручную проверить трудно.",
+    "why_it_wins": "Переход от «страницы-калькулятора» (уже насыщено) к проверке файла или ростера. Это персональный многошаговый расчёт по чужому документу, generative UI его не сделает. B2B-подписка работодателей от SEO не зависит. Австралия — самая быстрорастущая когорта калькуляторов.",
+    "key_evidence": "CrUX AU: fairworkmate.com.au поднялся с 500k до 50k (04→08.2026), wagecalculator.com.au с 500k до 50k (12.2025→08.2026), AU pay/tax в топ-1M выросли с 26 до 33 (https://github.com/zakird/crux-top-lists). Страничный слой занят: калькуляторы penalty rates по Nurses Award уже есть у FairWork Mate, AussieSalary, Aussie Clinicians, PayRiseCalculator, RosterElf (https://fairworkmate.com.au/tools/penalty-rates/nurses, https://aussiesalary.com/tools/penalty-rates-calculator/, поиск 2026-09-26), свободна только проверка документа. Аналог в UK — payslipiq.co.uk (в выдаче 2026-09): формат жизнеспособен, но копируем.",
+    "main_risk": "Нулевая экспертиза основателя. Чувствительные данные (payslip) и ответственность за ошибку. Клоны. Выплата AdSense на UK Ltd → Payoneer не подтверждена. Поддерживать правила 150+ Awards тяжело — решается через RuleDiff или партнёрство.",
+    "prelim_scores": {
+     "expertise": 1,
+     "demand": 3,
+     "freeness": 2,
+     "clone": 2,
+     "platform": 3,
+     "speed": 4,
+     "support": 3,
+     "unit_econ": 3,
+     "channels": 2,
+     "payments_reg": 3,
+     "viability": 3
+    }
+   },
+   {
+    "name": "Oblique 2 UXP-first: бесплатный базовый перенос + платные стекло, блюры и Motion-ключи + агентный режим",
+    "is_new": false,
+    "candidate_refs": [
+     33,
+     47,
+     54,
+     66,
+     69
+    ],
+    "one_liner": "Выпустить UXP-версию моста Figma→AE первым, к бете (11.2026). Базовый перенос отдать бесплатно и занять сегмент клонов. Деньги брать за калиброванные стеки эффектов Figma (glass, blur, refraction), перенос ключей Figma Motion и гарантию совместимости. MCP и skill использовать как канал.",
+    "type": "A",
+    "format": "Апгрейд на aescripts за $69–99, бесплатная lite-версия, студийные лицензии, MCP в официальном реестре.",
+    "buyer_and_pain": "UI-моушн-дизайнеры и агентства SaaS-промо. Боль: сломанный auto-layout, стекло и блюры приходят неправильными, анимацию из Figma Motion приходится переделывать вручную.",
+    "why_it_wins": "Готовая база покупателей и канал aescripts становятся хабом для всех B-продуктов портфеля: рассылка и кросс-продажи UXP Radar, Clearance Report, SpecCheck. Как продукт моат слабый: калибровочная библиотека «эффект Figma → стек AE» и скорость. Ценность Oblique как канала выше, чем как продукта.",
+    "key_evidence": "За 12 месяцев появилось 16+ OSS-мостов (~2,3 в месяц), платных 9+: Overlord 2 ~$75, Prism от $39, UXLink, Convertify $49/мес, AEShiper ~$6,5. LazyLord бесплатен (https://github.com/raisulsohan/LazyLord, 2026-09-16; https://nexthorizon.art/blog/aeux-vs-overlord-vs-convertify-vs-prism-best-way-to-transfer-and-animate-figma, 2026). Plugin API читает Motion-ключи и параметры REFRACTION_* и SPECULAR_* (https://raw.githubusercontent.com/figma/mcp-server-guide/main/skills/figma-use-motion/references/motion-patterns.md, 2026-09-26). UXP-бета AE — 11.2026 (Adobe Dev Blog, 2026-09).",
+    "main_risk": "Выручка дробится между клонами. Шаблоны Bolt UXP и aescripts UXP Framework позволят клонам перейти на UXP за недели. Figma или Adobe могут сделать нативный экспорт.",
+    "prelim_scores": {
+     "expertise": 5,
+     "demand": 4,
+     "freeness": 1,
+     "clone": 1,
+     "platform": 2,
+     "speed": 4,
+     "support": 3,
+     "unit_econ": 4,
+     "channels": 5,
+     "payments_reg": 5,
+     "viability": 2
+    }
+   },
+   {
+    "name": "Variant Factory Lite: локальный конвейер версий Sheet/CSV → шаблон AE → все форматы с safe zones → aerender → отчёт SpecCheck",
+    "is_new": false,
+    "candidate_refs": [
+     36,
+     97
+    ],
+    "one_liner": "Таблица с офферами, языками и форматами превращается в 20–200 версий из мастер-шаблона AE: перетайминг, перенос текста, форматы 9:16, 4:5, 1:1, 16:9, пакетный рендер через aerender. Каждая версия автоматически проверяется SpecCheck, итог — сводный отчёт для клиента.",
+    "type": "A",
+    "format": "CEP/UXP-панель на aescripts: $99–149 разово или $15–19/мес. В комплекте пакет брендовых шаблонов-систем.",
+    "buyer_and_pain": "Фрилансеры и студии на 1–10 человек, которым нужно 20–200 вариантов на кампанию. Plainly ($69/мес за 50 минут рендера) для них дорог, а скрипт за $15 задачу целиком не решает.",
+    "why_it_wins": "Ценность в контенте (шаблоны-системы от практика) и в связке с SpecCheck, а не в коде. OSS-конкурентов для связки CSV→AE за год не появилось. Канал: aescripts и база Oblique.",
+    "key_evidence": "Три SaaS продают это подпиской: Plainly $69–649/мес (https://www.capterra.com/p/10026817/Plainly/, 2026), Nexrender от €99/мес, Templater от $67,50. По запросу «after effects template csv batch render versions» с 06.2025 — 0 репозиториев (поток demand_scout_plus, 2026-09-26). Bannerbear — около $1 млн выручки при команде ~7 человек (2024, поток motion_industry).",
+    "main_risk": "Поддержка разных машин и версий AE может выйти за 2–4 ч/нед. Higgsfield Ad Multiplier, Magnific design_auto_resize и AI Assistant в AE частично закроют сценарий (~40% за 24 мес).",
+    "prelim_scores": {
+     "expertise": 5,
+     "demand": 4,
+     "freeness": 3,
+     "clone": 2,
+     "platform": 2,
+     "speed": 3,
+     "support": 2,
+     "unit_econ": 4,
+     "channels": 4,
+     "payments_reg": 5,
+     "viability": 3
+    }
+   },
+   {
+    "name": "Take Ledger: кросс-вендорный учёт AI-дублей, стоимости и происхождения для гибридных студий",
+    "is_new": false,
+    "candidate_refs": [
+     93,
+     13
+    ],
+    "one_liner": "Учёт по шотам: все генерации из Higgsfield, Magnific, Kling, Veo, Runway (перетаскиванием файлов и метаданных, без API), их стоимость по ценам Model Passport, статус, селекты. Автоматически собирается отчёт о происхождении для AI-раскрытия. Есть панель в AE/Premiere.",
+    "type": "A",
+    "format": "SaaS: $19–49 за место в месяц, студийный тариф $99–199/мес (оценка), через Paddle.",
+    "buyer_and_pain": "AI-гибридные студии и агентства на 2–30 человек. Боль: сотни и тысячи генераций в 3–6 сервисах, неизвестна цена финального клипа, юристы клиента задают вопросы.",
+    "why_it_wins": "Нейтральность между вендорами: каждая платформа видит только себя. Накопленная история проектов создаёт издержки переключения. Продукт питается данными Model Passport и отдаёт отчёты в Clearance Report, то есть работает на общий актив данных портфеля.",
+    "key_evidence": "«Специализированного инструмента для версионирования AI-тейков нет» (DCCA, 2026-08, поток motion_industry). Coca-Cola — 70 000+ клипов (https://www.thewrap.com/coca-cola-ai-christmas-ad-2025/, 2025-11). Kalshi — 300–400 генераций на 15 клипов. Image-MetaHub и SmartGallery DAM набрали 322–383★ на GitHub. Magnific Spaces, Higgsfield и Firefly Boards работают только внутри своих экосистем.",
+    "main_risk": "Студии могут остаться на Notion и Airtable. Интеграции ломаются при закрытии API (Sora API закрыт 2026-09-24). Платформы могут добавить импорт из конкурентов. Поддержка SaaS может выйти за 4 ч/нед.",
+    "prelim_scores": {
+     "expertise": 4,
+     "demand": 3,
+     "freeness": 4,
+     "clone": 2,
+     "platform": 2,
+     "speed": 3,
+     "support": 2,
+     "unit_econ": 4,
+     "channels": 2,
+     "payments_reg": 5,
+     "viability": 3
+    }
+   },
+   {
+    "name": "Screen Owner Content Kit: подписка на сезонные 3D-лупы под геометрию экрана для владельцев LED в ЮВА, Турции и на Ближнем Востоке",
+    "is_new": false,
+    "candidate_refs": [
+     64,
+     78
+    ],
+    "one_liner": "Библиотека параметрических анаморф-сцен (окна, аквариумы, частицы, праздники: Рамадан, Лунный Новый год, Рождество). 3D-ассистенты адаптируют их под геометрию экрана из Screen Atlas и выдают 2–4 лупа в месяц для хаус-контента и демо при продаже инвентаря.",
+    "type": "A",
+    "format": "B2B-подписка $300–1 000/мес за экран или годовая лицензия $1–5k (оценка). Оплата инвойсом через Wise или Payoneer.",
+    "buyer_and_pain": "ТЦ, отели, девелоперы с LED-фасадами и операторы, которые запускают первый 3D-экран без своей студии. Кастом за $8–25k на каждый сезон для них слишком дорог, а демо-контент нужен для продажи экрана.",
+    "why_it_wins": "Отношения с владельцами, набранные через Atlas, накопленная библиотека и 3D-команда основателя. Выручка повторяющаяся. В APAC инвентарь продаётся через людей, и продукт монетизирует те же связи, что и данные Atlas.",
+    "key_evidence": "Reklam Istanbul после установки L-экрана создал собственную 3D-студию (https://broadsign.com/blog/how-reklam-istanbul-is-building-turkeys-largest-digital-ooh-network-with-broadsign/, 2024–2025). Pavilion KL сам запускал 3D-контент (https://fooh.com/screens/pavilion-kl-3d-billboard/). ION Orchard Grand Façade — 189 м² с заявленной поддержкой 3D (https://www.jcdecaux.com.sg/news-and-press-releases/jcdecaux-singapore-and-ion-orchard-unveils-brand-new-ion-grand-facade-led). pDOOH в APAC — 1,7% (WOO, 2026-09). Данных о подобных подписках нет.",
+    "main_risk": "Адаптация под уникальные экраны съедает время, нужен операционный 3D-ассистент. Длинный B2B-цикл. Крупные операторы делают контент сами.",
+    "prelim_scores": {
+     "expertise": 4,
+     "demand": 2,
+     "freeness": 4,
+     "clone": 4,
+     "platform": 4,
+     "speed": 3,
+     "support": 1,
+     "unit_econ": 4,
+     "channels": 2,
+     "payments_reg": 4,
+     "viability": 3
+    }
+   }
+  ],
+  "rejections": [
+   {
+    "name": "PayScale Local: калькуляторы госшкал оплаты UK/AU/IE/NZ (модель друга «в лоб», №26)",
+    "reason": "Поиск 2026-09-26 показал, что ниши уже насыщены. По UK Armed Forces 2026/27 — 8+ калькуляторов (taxdcal, paytoolkit, publicsectorcalculators, salarytax.uk, payslipiq, savingtool, ukcalculator, calculatorsonline). По AU Nurses penalty rates — 5+ (FairWork Mate, AussieSalary, Aussie Clinicians, PayRiseCalculator, RosterElf). По IE HSE — 4+, включая калькулятор инкрементов jobvacancies.ie. По NZ teachers есть nztax.tools. В CrUX GB за 5 месяцев появилось 5 NHS-клонов. Годится только как быстрый кэш в партнёрстве с другом, не как актив на 3 года."
+   },
+   {
+    "name": "Калькуляторы под свежие налоговые изменения: US no tax on tips/overtime 2025–2028, NL 30%→27% (2027), UK pension IHT (2027), MTD ITSA",
+    "reason": "Каждую нишу закрыли за недели. По tips — nationaltaxtools, countrytaxcalc, whatsmytax, eduyush. По льготе 30% — 8+ калькуляторов. По IHT 2027 — retirementcalculators.uk и investinginsiders. По MTD — 9+ сравнений софта (mtd.digital, rentalbux, anna.money, gofile), а вендоры сами пишут гайды. Мультистрановые сети вроде countrytaxcalc ловят каждое изменение. Политика Google от 2026-05-15 бьёт по масштабированным шаблонным страницам. Окно US-льгот закрывается в 2028."
+   },
+   {
+    "name": "SEO-сайт сравнения цен AI-видео как самостоятельный продукт (№39, №72)",
+    "reason": "Только за 08–09.2026 вышло 9+ датированных страниц (apiframe, atlascloud, buildmvpfast, seeles.ai с «price per usable shot», ltx, fluxnote, morphed, crazyrouter). Бесплатные LiteLLM и fal-model-atlas. costgoat вне топ-1M CrUX. Ценность осталась только у владельца данных: алерты, API, история розничных цен (см. Model Passport)."
+   },
+   {
+    "name": "Хаб спецификаций и safe zones соцсетей как SEO-продукт (№28 в текстовом виде)",
+    "reason": "Бесплатные оверлеи раздают минимум 6 сайтов (FileFlippers, Kreatli, PostPlanify, EasyEdit, reloop, createcomfy), есть ещё Automation Blocks. В Adobe Community открыт запрос на встроенные safe zones. «tiktok video size» — классический универсальный ответ для AIO и generative UI."
+   },
+   {
+    "name": "DOOH Cost Calculators ЮВА/ОАЭ (№79) и Motion & Billboard Estimator как SEO-бизнес (№32)",
+    "reason": "Запросы «harga sewa videotron Jakarta» уже заняты 6+ гайдами операторов на бахаса, по Дубаю есть 4+ агентских гайда. DOOH-справочники в CrUX вне топ-1M. Для лидов студии оставить как модуль Screen Atlas, отдельно не строить."
+   },
+   {
+    "name": "Трекеры EU Pay Transparency Directive и HR-комплаенса",
+    "reason": "Поиск 2026-09-26 нашёл 9+ трекеров транспозиции от финансируемых HR-SaaS и юрфирм (beqom, Syndio, Trusaic, Figures с обновлением за сентябрь 2026, Lexology Pro, PayGap, pay-transparency-tracker.com, Ius Laboris). Это их контент-маркетинг, и экспертизы у основателя здесь нет."
+   },
+   {
+    "name": "Виджеты и API «зарплата на руки» для job-бордов и рекрутеров",
+    "reason": "Уже есть бесплатный embed NettoCalc для всей Европы, SalaryAPI.com с net-salary-эндпоинтом и Symmetry в США. Бесплатный тир обнуляет цену, B2B-продажи нужны длинные."
+   },
+   {
+    "name": "Калькуляторы продакшн-инсентивов: UK VFX 39%, AVEC, мировые ребейты",
+    "reason": "Есть инструмент сравнения юрисдикций Entertainment Partners, трекер Vitrina на 40+ юрисдикций и NEEDaFIXER. Покупателей — десятки продюсеров, которых обслуживают консультанты. Далеко от A-экспертизы."
+   },
+   {
+    "name": "Калькулятор резидуалов и usage-fee SAG-AFTRA для рекламы",
+    "reason": "Только US-рынок, сложные профсоюзные таблицы. Рабочий процесс принадлежит payroll-компаниям (EP, Cast & Crew), а профсоюз сам публикует шпаргалки (Commercials Cheat Sheet 2026–2027). Высокая ответственность за ошибку, и основатель вне этого рынка."
+   },
+   {
+    "name": "Аналитика для авторов шаблонов Envato/Videohive и keyword-тулы для AI-стока Adobe Stock",
+    "reason": "Уже есть Enscouto и AuthorDesk, у Envato — своя Market Analytics. По Adobe Stock — CyberStock, ReadyTag, Pro Adobe Contributor (23+ тулов) и Chrome-расширения. Покупатели — контрибьюторы с низким доходом, цена за скачивание стремится к нулю."
+   },
+   {
+    "name": "Creative MCP Index (№59) и платный AE-MCP-коннектор (№55)",
+    "reason": "В маркетплейсах Claude и ChatGPT нет revenue share для инди. SEP-2007 о платежах в MCP всё ещё черновик. Шаблоны платных MCP собрали 0–2★. Бесплатных AE-MCP уже 72, в AE есть AI Assistant. Монетизируются только платные данные и вычисления, а не каталог."
+   },
+   {
+    "name": "AI Plate Finisher / Plate Prep для AE (№4, №10, №37, №96)",
+    "reason": "Higgsfield и Magnific уже встроили дефликер, апскейл до 4K с пресетом «aigc», интерполяцию и relight. Adobe купила Topaz. Вероятность нативного решения за 24 месяца ~75%, клоны появятся за 2–6 месяцев. Моат только в пресетах, и он слабый."
+   },
+   {
+    "name": "Потребительское приложение «рисунок ребёнка → видео» (№22, №82, №88)",
+    "reason": "Около 30 конкурентов, ни одного в топ-1M CrUX. OpenAI, Veo и Seedance блокируют детей и реальные лица. Платный CAC $83–250 против LTV первого года ~$30. Apple 4.3 запрещает клоны-портфели, Paddle не берёт AI-генераторы изображений. Не data-продукт и не проходит ни одного критерия линзы."
+   },
+   {
+    "name": "Trend Radar (№91) и генерики-калькуляторы и конвертеры",
+    "reason": "В мировом топ-100k CrUX число генериков упало с 41 до 24 (2023→2026). AIO уже встроил счётчик символов, generative UI собирает калькуляторы на лету. Тренды живут 2–6 недель. Защита только в скорости."
+   },
+   {
+    "name": "Age & Store Policy Tracker (№43)",
+    "reason": "Вне экспертизы основателя. Бесплатно конкурируют блоги RevenueCat и Adapty, официальные новости Apple и Google, трекеры юрфирм и IAPP. Готовность инди платить не подтверждена, есть юридическая ответственность."
+   }
+  ],
+  "portfolio_note": "Поиск 2026-09-26 проверил 11 чисто-B ниш (налоги, зарплаты, HR, инсентивы): в каждой уже 2–10 конкурентов. Поэтому чистый тип B в стиле друга стоит брать только партнёрством (RuleDiff, Award Check), а собственные B-продукты строить на данных, которых нет у других: совместимость плагинов, лицензии моделей, геометрия экранов, розничные цены агрегаторов. Первым шагом в Q4 2026 к бете UXP (11.2026) идут Oblique 2 UXP-first (деньги и канал aescripts) и за 2–3 недели UXP Radar: он бесплатно собирает email-лист AE-профи и отношения с разработчиками, а окно миграции 2027–2029 совпадает с горизонтом основателя. В Q1 2027 строится общий слой данных GenMedia Model Passport, сначала внутренний, и на нём Deliverable Clearance Report. Клиентский спрос на него растёт вместе с маркировкой по ст. 50 AI Act, но перед запуском нужны 10 интервью с продюсерами. В Q2 2027 выходит SpecCheck: файловый QC под CTV/DOOH на спецификациях из Screen Atlas. Сам Atlas растёт вместе со студией (30–50 экранов плюс Spec Packs) как лидоген, а не как самоходный доход. Дешёвые B-эксперименты на 1–2 недели каждый — Indie Seller Stack Finder, Plugin Price Radar и опрос Creative Rate Desk через тот же лист. Все продукты делят один email-лист, одну базу спецификаций и лицензий, один QC-движок и один канал aescripts, так что поддержка растёт медленнее числа продуктов. Критерий остановки для каждого: меньше 200 подписчиков или меньше $300 MRR через 90 дней — продукт замораживается в режим «только данные». Лимит веб-поиска сессии исчерпан на 22-м запросе: спрос на Plugin Price Radar и наличие конкурентов у Award Check в AU не проверены, это нужно сделать до старта."
+ },
+ {
+  "lens": "distribution_skeptic",
+  "shortlist": [
+   {
+    "name": "Oblique 2 UXP: платный апгрейд своей базы и калиброванные стеки Figma-эффектов",
+    "is_new": false,
+    "candidate_refs": [
+     66,
+     69,
+     33,
+     47
+    ],
+    "one_liner": "Выпустить UXP-версию Oblique первой, к бете UXP в AE (11.2026). Базовый перенос отдать бесплатно, а деньги брать за калиброванные стеки стекла и блюров Figma и за перенос ключей Figma Motion — как платный мажорный апгрейд для текущих покупателей.",
+    "type": "A",
+    "format": "UXP-панель AE + Figma-плагин. Апгрейд $39–49 для владельцев, новая лицензия $69–99 на aescripts (оценка), lite-версия бесплатно, ранний листинг в UXP-разделе Adobe Exchange",
+    "buyer_and_pain": "Текущие покупатели Oblique и UI-моушн-дизайнеры SaaS- и app-промо. CEP-панели выключат по умолчанию в 12.2028 и удалят в 12.2029. Стекло и блюры Figma в AE подбирают на глаз, анимацию из Figma Motion пересобирают руками.",
+    "why_it_wins": "Ров слабый: кодовую часть клонировали 16+ раз. Поэтому это не ставка на 3 года, а сбор урожая с уже купленного канала. Защищают библиотека калибровок «эффект Figma → стек AE», собранная вручную, и выход на UXP раньше клонов. КАНАЛ: собственная база покупателей Oblique, листинг и отзывы на aescripts, ранний листинг UXP на Exchange (90% разработчику). ПЕРВЫЕ 10: в неделю выхода UXP-беты письмо текущим покупателям с апгрейдом за $39. Бесплатная lite-версия отнимает у клонов аргумент «бесплатно».",
+    "key_evidence": "В категории 9+ платных инструментов (Prism от $39, Overlord 2 ≈$75, Convertify $49/мес, UXLink с Figma Motion): https://nexthorizon.art/blog/aeux-vs-overlord-vs-convertify-vs-prism-best-way-to-transfer-and-animate-figma (2026). Бесплатный LazyLord: https://github.com/raisulsohan/LazyLord (2026-09-16). Сроки UXP: бета ~11.2026, CEP выключен по умолчанию 12.2028: https://blog.developer.adobe.com/en/publish/2026/09/investing-in-the-future-of-creative-cloud-extensibility-uxp-comes-to-our-flagship-applications (2026-09). Plugin API читает ключи Motion, в allowlist есть REFRACTION_* и SPECULAR_*: https://raw.githubusercontent.com/figma/mcp-server-guide/main/skills/figma-use-motion/references/motion-patterns.md (д.д. 2026-09-26). Платные мажорные апгрейды — рабочая модель aescripts: Plexus 3 $249,99, апгрейд $99,99, https://aescripts.com/plexus/ (д.д. 2026-09-26).",
+    "main_risk": "Выручка дробится между 9+ платными и 16+ бесплатными мостами. UXLink или Overlord повторят FX-функции за 4–8 недель. Бета-API Figma Motion может измениться. Сначала проверить, даёт ли aescripts автору писать покупателям об апгрейде.",
+    "prelim_scores": {
+     "expertise": 5,
+     "demand": 4,
+     "freeness": 1,
+     "clone": 1,
+     "platform": 2,
+     "speed": 4,
+     "support": 3,
+     "unit_econ": 4,
+     "channels": 5,
+     "payments_reg": 5,
+     "viability": 2
+    }
+   },
+   {
+    "name": "Профессиональные калькуляторы оплаты вместе с другом (AU/NZ/IE/CA)",
+    "is_new": false,
+    "candidate_refs": [
+     26
+    ],
+    "one_liner": "Перенести NHS-модель в страны и профессии, где её ещё не клонировали: медсёстры и учителя по штатам AU, IE HSE, NZ, провинции CA. Цепочка «грейд → ставка → после налогов → пенсия», email-алерты к новым соглашениям, embed для профсоюзов.",
+    "type": "B",
+    "format": "1 сайт = 1 профессия × 1 страна, 20–50 глубоких страниц на реальных таблицах соглашений. Реклама: AdSense, затем Journey. Сборка на готовом конвейере друга, доля по договорённости",
+    "buyer_and_pain": "Бюджетники после ежегодного pay award хотят знать новую зарплату после налогов. Платят рекламодатели: финансовый RPM в Tier-1 — $15–40.",
+    "why_it_wins": "Единственный B-тип с доказанным бесплатным каналом: профессиональные калькуляторы входят в топ-50–100k страны за 3–8 месяцев. Партнёрство с другом закрывает главную слабость основателя: у него нет SEO-конвейера и опыта. Основатель приносит новые вертикали, дизайн и скорость обновления в день выхода соглашения. КАНАЛ: органика плюс email-алерты. ПЕРВЫЕ ДЕНЬГИ: рекламная сеть после 1 000 сессий. Параллельно — бесплатный embed 10 отделениям профсоюзов и школам медсестёр: это ссылки и прямой трафик вне контроля Google.",
+    "key_evidence": "CrUX (https://github.com/zakird/crux-top-lists, срез 2026-08). nhstakehome.co.uk появился в 03.2026 и к 06.2026 вошёл в топ-50k GB. wagecalculator.com.au: 500k (12.2025) → 50k AU (08.2026). fairworkmate.com.au: 500k (04.2026) → 50k (08.2026). Pay/tax-когорта GB в топ-1M выросла 120 → 134, а generic-калькуляторы в мировом топ-100k упали 41 → 24 (2023 → 2026). Но в GB уже 5 NHS-клонов. Порог Journey by Mediavine — 1 000 сессий в месяц: https://help.mediavine.com/programs-and-the-publisher-path-to-growth (2026). Спам-политика против scaled AI content: https://developers.google.com/search/docs/essentials/spam-policies (ред. 2026-05-15).",
+    "main_risk": "Клоны приходят за 1–3 месяца. Generative UI Google может забрать расчёт. YMYL, 4 спам-апдейта за 2026 год. Выплата AdSense на Payoneer не подтверждена, нужен настоящий UK-счёт. Экспертиза основателя почти не используется.",
+    "prelim_scores": {
+     "expertise": 1,
+     "demand": 5,
+     "freeness": 2,
+     "clone": 1,
+     "platform": 2,
+     "speed": 5,
+     "support": 4,
+     "unit_econ": 4,
+     "channels": 4,
+     "payments_reg": 3,
+     "viability": 3
+    }
+   },
+   {
+    "name": "«Оживший вернисаж»: школьный фандрайзер «только рисунки» (пилоты в международных школах Бали → ЮВА → UK/US)",
+    "is_new": false,
+    "candidate_refs": [
+     20,
+     99,
+     81,
+     24,
+     21,
+     101
+    ],
+    "one_liner": "Учитель загружает рисунки класса. Родители и бабушки с дедушками покупают ролик с ожившим рисунком, «фильм выставки» и открытку или постер с QR. Школа получает 25–35%. Без фото детей и без приложения.",
+    "type": "AB",
+    "format": "Кабинет учителя + родительская витрина + печать через Gelato или Prodigi. Оплата через Dodo, Creem или Stripe (Paddle и Polar не подходят). Два сезона: март–апрель и октябрь–ноябрь",
+    "buyer_and_pain": "Арт-учителя, PTA и детсады хотят фандрайзер без возни. Родители и бабушки с дедушками хотят сувенир с работой ребёнка.",
+    "why_it_wins": "Институциональный канал и готовый ритуал: школы уже продают детские рисунки родителям через Square 1 Art, Artsonia, Original Works и Art to Remember. Анимации ни у кого из них не найдено. Режим «только рисунки» обходит блокировки детей у OpenAI, Veo и Seedance. Одна школа — сотни покупателей без рекламы. КАНАЛ: учреждения. ПЕРВЫЕ 10: пилоты весной 2027 в 2–3 международных школах и детсадах Бали (основатель на месте, ролик выставки — кейс). Затем международные школы Джакарты, Сингапура и Бангкока через родительские комитеты. После кейса — UK/US и идея white-label.",
+    "key_evidence": "Square 1 Art: школе 25/33/38%, минимум 150 работ, порог $3 300 (https://www.square1art.com/free-product-program/, 2026); школы получают почти $7 млн в год (https://www.square1art.com/about-us/, 2026). Artsonia: 50 000+ школ, 138,7 млн работ, US top-5k CrUX (https://www.artsonia.com/about/, 2025–2026). Art to Remember: 11 545 школ, $45 млн+ с 1995 года (https://atr.arttoremember.com/fundraisers/). Пики shop.square1art.com — март–апрель и октябрь–ноябрь (CrUX, https://github.com/zakird/crux-top-lists, 2025–2026). Физические сувениры держат чек $89,99–210 (Plum Print $175–210: https://www.plumprint.com/pages/pricing, 2026).",
+    "main_risk": "Цикл B2B-продаж и сезонность: школы, вероятно, записываются в январе–феврале. Инкумбенты могут добавить анимацию (оценка 40–60% к 09.2028). Нужна жёсткая дисциплина детской приватности (COPPA, AADC, авто-удаление). Спрос на видео в школах прямо не подтверждён.",
+    "prelim_scores": {
+     "expertise": 4,
+     "demand": 4,
+     "freeness": 4,
+     "clone": 3,
+     "platform": 4,
+     "speed": 3,
+     "support": 2,
+     "unit_econ": 4,
+     "channels": 3,
+     "payments_reg": 3,
+     "viability": 3
+    }
+   },
+   {
+    "name": "3D Loop Library: лицензия сезонных анаморф-лупов для владельцев экранов и LED-интеграторов",
+    "is_new": false,
+    "candidate_refs": [
+     64,
+     78
+    ],
+    "one_liner": "Библиотека параметрических 3D-лупов: сезонные праздники ЮВА (Рамадан, Лунный Новый год, Рождество), «окна», аквариумы, частицы. Лупы подгоняются под геометрию конкретного экрана и продаются по годовой лицензии для хаус- и демо-контента.",
+    "type": "A",
+    "format": "B2B-лицензия $1–5 тыс. в год на экран или пакет для интегратора (оценка). Дропы раз в квартал, адаптацию делают 3D-ассистенты студии по шаблону",
+    "buyer_and_pain": "ТЦ, отели и девелоперы с LED-фасадами и L-экранами, операторы на развивающихся рынках, LED-интеграторы. Между кампаниями и для продажи экрана нужен 3D-контент, а кастом стоит $8–25 тыс. за сезон.",
+    "why_it_wins": "Связь с физическим миром и накопленная библиотека: каждый луп проверен на реальной геометрии, за день такое не скопировать. Платформам ниша неинтересна. Платят уже сегодня: Reklam Istanbul построил собственную 3D-студию, потому что контента нет; Daktronics Creative Services делал контент для GI Kempinski Jakarta. КАНАЛ: студия основателя, которая и так говорит с владельцами о производстве (апселл «между кампаниями»), и LED-интеграторы, которым демо нужно при сдаче объекта. ПЕРВЫЕ 10: 5 владельцев из текущих переговоров студии + 5 интеграторов ЮВА, пилотный сезон бесплатно за право на кейс.",
+    "key_evidence": "Reklam Istanbul после установки L-экрана создал свою 3D-студию: https://broadsign.com/blog/how-reklam-istanbul-is-building-turkeys-largest-digital-ooh-network-with-broadsign/ (2024–2025). Контент Daktronics для GI Kempinski Jakarta: https://fooh.com/screens/gi-kempinski-mall-3d-billboard/ (2026). Pavilion KL делал 3D-контент сам: https://fooh.com/screens/pavilion-kl-3d-billboard/. DOOH в США +18,5% в Q2 2026: https://billboardinsider.com/us-out-of-home-revenue-up-9-percent-in-2q-2026/ (2026). Рекорд OOH в Q1 2026 «driven by digital growth and AI brands»: https://oaaa.org/news/ooh-hits-new-first-quarter-high-as-revenue-reaches-2-12-billion-driven-by-digital-growth-and-ai-brands/ (2026-06-03). Студийный анаморф стоит $8–60 тыс.: https://www.eagerled.com/3d-anamorphic-billboard-ultimate-guide/ (2026).",
+    "main_risk": "Адаптация под уникальные экраны съедает время: нагрузка ложится на 3D-ассистентов, а не на 2–4 ч/нед основателя. Крупные операторы делают контент in-house. Покупателей сотни, а не тысячи. Подписок на хаус-контент напрямую не найдено.",
+    "prelim_scores": {
+     "expertise": 5,
+     "demand": 3,
+     "freeness": 4,
+     "clone": 4,
+     "platform": 5,
+     "speed": 3,
+     "support": 2,
+     "unit_econ": 4,
+     "channels": 3,
+     "payments_reg": 4,
+     "viability": 4
+    }
+   },
+   {
+    "name": "Booth Motion Packs: анимированные оверлеи и шаблоны для операторов 360- и видео-фотобудок",
+    "is_new": false,
+    "candidate_refs": [
+     86
+    ],
+    "one_liner": "Сезонные пакеты анимированных оверлеев, интро и аутро, брендируемых рамок (свадьба, корпоратив, выпускной, праздники) под форматы софта фотобудок. Плюс AE-шаблон для кастомизации под событие за 10 минут. Без AI-генерации.",
+    "type": "A",
+    "format": "Подписка $15–29 в месяц или пакеты $29–79 (оценка) на своём сайте через Paddle. Позже — партнёрские листинги в экосистемах софта будок",
+    "buyer_and_pain": "Операторы 360- и видео-будок. Клиент покупает пакет с «custom overlay», а оператор без моушн-навыков рисует оверлей к каждому событию сам в Canva.",
+    "why_it_wins": "За боль уже платят: кастомный оверлей входит в пакеты будок за $275–300 за событие. Софт будок подписочный (LumaBooth $19,99/мес, у Touchpix анимированные оверлеи), то есть операторы привыкли платить за инструменты. Моушн-качество — прямое преимущество основателя. Без AI нет запретов Paddle и регуляторики. КАНАЛ: прямой контакт с операторами, чьи сайты продают «Custom Overlay», и их сообщества. ПЕРВЫЕ 10: 50 писем таким операторам с бесплатным свадебным пакетом за отзыв, затем платный сезонный дроп к весне 2027.",
+    "key_evidence": "Сайты прокатчиков: «360 Booth (6 hrs) + Photography · Unlimited 360 Videos · Custom Overlay» — https://github.com/KingEugenio/EKOWEBSITE (2026); пакет $275 за 2 часа с кастомными оверлеями — https://github.com/Thememorybook/Thememorybook (2026). LumaBooth — US$19,99 в месяц; Touchpix поддерживает анимированные оверлеи: https://github.com/zuychin03/zuychin-photobooth/blob/main/docs/research/V2_MARKET_RESEARCH.md (2026-09-22). В Higgsfield Viral Hub 87 пресетов, ни одного под события (MCP, 2026-09-26, поток consumer_apps). Прокат AI-фотобудок продаётся через SEO-лендинги (consumer_apps, 2026).",
+    "main_risk": "Шаблоны копируются, чек маленький. Операторам может хватать Canva, а софт будок может встроить собственную библиотеку. Сколько операторов покупают готовые оверлеи, не измерено — прямая проверка на первых 50 письмах.",
+    "prelim_scores": {
+     "expertise": 5,
+     "demand": 3,
+     "freeness": 3,
+     "clone": 2,
+     "platform": 4,
+     "speed": 5,
+     "support": 4,
+     "unit_econ": 3,
+     "channels": 3,
+     "payments_reg": 5,
+     "viability": 3
+    }
+   },
+   {
+    "name": "Tribute Studio: трибьют-видео уровня моушн-дизайнера через похоронные дома",
+    "is_new": false,
+    "candidate_refs": [
+     85
+    ],
+    "one_liner": "Семья или похоронный дом загружает 20–60 фото. За 24 часа приходит трибьют-видео на AE-шаблонах, реставрация снимков и печатный набор (карточки, рамка с QR). Оживление лиц — только по отдельному согласию наследника и с меткой.",
+    "type": "AB",
+    "format": "Веб-сервис с white-label-кодами для похоронных домов ($15–25 оптом) и прямым заказом для семей ($39–79). Печать через PoD. Оплата через Dodo или Stripe (Paddle запрещает deepfake)",
+    "buyer_and_pain": "Похоронные дома: слайдшоу входит в услугу или продаётся допом, но собирается вручную. Семьи: 1–3 дня до церемонии, горе, нет навыков.",
+    "why_it_wins": "Повод, за который платят всегда, с бюджетом и дедлайном. Платформы в похоронный B2B не пойдут, у агрегаторов нет таких пресетов. Ров — канал похоронных домов, процесс согласия и физический результат. КАНАЛ: независимые похоронные дома UK и AU (у основателя UK Ltd) — B2B2C без рекламы, плюс каталог ChatGPT Apps, где аналог уже есть. ПЕРВЫЕ 10: 100 писем и звонков независимым похоронным домам UK с тремя бесплатными видео под их брендом; кто вернётся — получает оптовые коды.",
+    "key_evidence": "В ChatGPT Apps уже есть «Glinded for Memorial Videos»: https://chatgpt.com/apps/glinded-memorial-videos (2026). MyHeritage Deep Nostalgia — больше 100 млн анимаций (поток consumer_apps, 2026). Оцифровка кассет продаётся похоронным домам как партнёрская услуга, то есть канал существует (consumer_apps, 2026-09-26). Paddle запрещает AI-генераторы и deepfake: https://freemius.com/blog/payment-platform-restrictions-ai-apps/ (2026). Себестоимость генерации ~$3–5 на видео (оценка потока, прайс LiteLLM 2026-09-26).",
+    "main_risk": "Этика и репутация «оживления умерших»: ст. 50(4) AI Act, законы штатов о цифровых копиях. Эмоциональная поддержка и 24-часовой SLA спорят с 2–4 ч/нед. Похоронный B2B консервативен, вендоры похоронного ПО могут встроить аналог. Цены печати не проверены.",
+    "prelim_scores": {
+     "expertise": 4,
+     "demand": 4,
+     "freeness": 3,
+     "clone": 3,
+     "platform": 4,
+     "speed": 4,
+     "support": 2,
+     "unit_econ": 4,
+     "channels": 3,
+     "payments_reg": 3,
+     "viability": 4
+    }
+   },
+   {
+    "name": "UXP Successors: выкуп и поддержка осиротевших CEP-инструментов",
+    "is_new": false,
+    "candidate_refs": [
+     19,
+     14,
+     30
+    ],
+    "one_liner": "Не писать новый плагин, а выкупать у уставших авторов популярные, но заброшенные AE- и Premiere-скрипты с живой базой пользователей (или брать по лицензии с revenue share). Портировать их на UXP через Claude Code и продавать как «поддерживаемый наследник» с платным апгрейдом.",
+    "type": "AB",
+    "format": "Портфель из 3–6 инструментов на aescripts и Adobe Exchange. Апгрейд $15–49, исходному автору revenue share 20–40% (оценка). Бесплатная публичная матрица «UXP Radar» как воронка",
+    "buyer_and_pain": "Пользователи CEP-панелей, которые сломаются в 12.2028–12.2029. Одинокие авторы без ресурса на миграцию — это продавцы актива.",
+    "why_it_wins": "Новая механика к кандидату №19: дистрибуция покупается вместе с активом. Листинг, отзывы, SEO и база пользователей уже есть, а клон начинает с нуля. Окно 2027–2029 задаёт график Adobe, а не мода. КАНАЛ: действующие листинги и уведомления их пользователям. ПЕРВЫЕ 10: письма авторам заброшенных, но используемых инструментов из каталога aescripts и архивных репозиториев GitHub с предложением revenue share. Первые покупатели — пользователи этих инструментов, которых уведомляет сам автор.",
+    "key_evidence": "График UXP: CEP выключен по умолчанию 12.2028, удалён 12.2029 (https://blog.developer.adobe.com/en/publish/2026/09/investing-in-the-future-of-creative-cloud-extensibility-uxp-comes-to-our-flagship-applications, 2026-09). Тред «should developers stop building CEP plugins»: https://community.adobe.com/questions-606/cep-uxp-roadmap-should-developers-stop-building-cep-plugins-and-what-happens-to-existing-ones-1614807 (2026). AEUX архивирован 21.06.2025, при этом 560★ и 86 открытых issues (https://github.com/google/AEUX, GitHub API 2026-09-26). Duik-15 архивирован (https://github.com/RxLaboratory/Duik-15). Hyper Brew продаёт аудит миграции: https://hyperbrew.co/uxp/ (2026). Модель платных апгрейдов aescripts — $99–205 (Plexus, GEOlayers: https://aescripts.com/geolayers/).",
+    "main_risk": "Авторы могут не продавать, а open-source-лицензии (GPL) могут запрещать закрытую продажу. Adobe может выпустить автоконвертер CEP → UXP. AI делает порт тривиальным для самих авторов. Поддержка нескольких чужих кодовых баз может выйти за 4 ч/нед. Данных о сделках с AE-плагинами нет — первые 10 писем и есть проверка.",
+    "prelim_scores": {
+     "expertise": 4,
+     "demand": 3,
+     "freeness": 4,
+     "clone": 3,
+     "platform": 3,
+     "speed": 3,
+     "support": 2,
+     "unit_econ": 3,
+     "channels": 4,
+     "payments_reg": 5,
+     "viability": 3
+    }
+   },
+   {
+    "name": "Screen Owner Intake Kit: приём креатива и превью для владельцев премиальных экранов",
+    "is_new": true,
+    "candidate_refs": [
+     56,
+     76,
+     92,
+     18
+    ],
+    "one_liner": "White-label-страница спецификаций экрана со ссылкой для загрузки. Файл автоматически проверяется: разрешение, fps, кодек, размер, петля, safe zones, для 3D — pixel map и точка обзора. При необходимости он конформится, агентство получает превью на фото локации. Платит владелец экрана, а не креатор.",
+    "type": "AB",
+    "format": "B2B SaaS $49–199 в месяц за сеть или экран (оценка), бесплатно для одного экрана. Инвойс через Stripe или Paddle. База спецификаций общая с Screen Spec Packs",
+    "buyer_and_pain": "Владельцы и операторы премиальных и 3D-экранов в ЮВА и на развивающихся рынках, которые продают напрямую. Креатив приходит в WhatsApp или WeTransfer в неверном формате, проверка и переписка занимают дни, превью для продажи слота делают вручную.",
+    "why_it_wins": "Новый угол к идеям preflight: платит тот, у кого боль уже имеет цену. Cross Shinjuku берёт ¥50 000 за приём контента, модерация спектакуляров занимает 2–5 дней. Владелец сам приводит всех рекламодателей, и они становятся бесплатными пользователями. В Азии >98% DOOH продаётся напрямую, поэтому программатик-SSP эту нишу не закроют. КАНАЛ: студия основателя уже общается с владельцами; каталог FOOH.com (139 экранов в 63 городах) — готовый список для прямых писем. ПЕРВЫЕ 10: 3–5 знакомых владельцев в Джакарте, Сингапуре и KL бесплатно на 3 месяца, затем владельцы 3D-экранов из FOOH.com в Стамбуле, Найроби и Милане по кейсу.",
+    "key_evidence": "Sales sheet Cross Shinjuku Vision: доплата ¥50 000 за приём контента и ¥100 000 за live-трансляцию, ротация 15 с — 4 раза в час: https://shinjuku.xspace.tokyo/wp-content/uploads/2025/07/%E3%80%90%E3%82%AF%E3%83%AD%E3%82%B9%E6%96%B0%E5%AE%BF%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3%E3%80%91%E5%AA%92%E4%BD%93%E8%B3%87%E6%96%99-20250702%E4%BF%AE%E6%AD%A3.pdf (2025-07). Лимиты Vistar: 10 МБ для статики, 50 МБ для видео — https://bdooh.com/research/dooh-creative-spec-reference/ (2026). Модерация 1 день + 2–5 дней на спектакулярах: https://doohmarketing.com/dooh-creative-specs-guide (2026). pDOOH в APAC — 1,7%, в Восточной Азии — 0,6%: https://www.worldooh.org/news/woo-global-pdooh-spend-study-2025 (2026-09). В OpenOOH нет полей геометрии и 3D: https://github.com/openooh/venue-taxonomy (2026-09-24).",
+    "main_risk": "Владельцы могут не платить за софт: у крупных есть модерация в Broadsign или Vistar. Премиальных операторов в регионе десятки. Прямой готовности платить за «софт приёма креатива» нет — до разработки нужны 10 интервью с владельцами.",
+    "prelim_scores": {
+     "expertise": 4,
+     "demand": 2,
+     "freeness": 4,
+     "clone": 3,
+     "platform": 3,
+     "speed": 4,
+     "support": 3,
+     "unit_econ": 3,
+     "channels": 3,
+     "payments_reg": 4,
+     "viability": 3
+    }
+   },
+   {
+    "name": "Branded World Packs: системы шаблонов в одном дизайн-языке на Envato",
+    "is_new": false,
+    "candidate_refs": [
+     70
+    ],
+    "one_liner": "Пакеты из 40–80 согласованных элементов (переходы, титры, lower thirds, вертикальные оверлеи) в едином стиле для Premiere, AE и MOGRT. Новый «мир» каждые 1–2 месяца, в первую очередь под Premiere.",
+    "type": "A",
+    "format": "Envato Elements и Videohive ($29–49 за позицию), затем Motion Array",
+    "buyer_and_pain": "Монтажёры, SMM-щики и маленькие агентства ищут «брендовый мир», а находят разрозненные ассеты.",
+    "why_it_wins": "Маркетплейс даёт трафик без рекламы, а Envato сам публикует разрыв спроса и предложения. Ров — узнаваемый авторский стиль и регулярность выпуска. КАНАЛ: встроенный поиск Envato и Motion Array. ПЕРВЫЕ 10 покупателей приходят из поиска маркетплейса по «stylish/brand pack»; бесплатный мини-пакет — для ранних отзывов. Envato платит на Payoneer и сам ведёт налоги, поддержка почти нулевая.",
+    "key_evidence": "Envato: поиск «stylish packages» +410%, до скачивания доходят лишь 6,2%, покупатели хотят «a branded world»: https://hub.author.envato.com/video-templates-content-insights-december-2025/ (2025-12). Самый скачиваемый шаблон 2025 года — Premiere-пакет переходов, 106 000 скачиваний: https://elements.envato.com/learn/envato-unpacked (2025-12). Motion Array: $15,99–24,99 в месяц за весь каталог — https://photutorial.com/motion-array-pricing/ (2026). Выплата Envato на Payoneer подтверждена (поток payments_legal, 2026-09-26).",
+    "main_risk": "Цена единицы шаблона стремится к нулю, выплаты из подписочного пула Envato малы (нет данных). Генеративный AI давит на стоки, стиль копируется. Это денежный наполнитель портфеля, а не ставка на 3 года.",
+    "prelim_scores": {
+     "expertise": 5,
+     "demand": 4,
+     "freeness": 3,
+     "clone": 2,
+     "platform": 3,
+     "speed": 5,
+     "support": 5,
+     "unit_econ": 2,
+     "channels": 5,
+     "payments_reg": 5,
+     "viability": 2
+    }
+   },
+   {
+    "name": "SEA 3D Screen Atlas + Estimator: лидогенерация для студии",
+    "is_new": false,
+    "candidate_refs": [
+     62,
+     75,
+     29,
+     32,
+     40,
+     35,
+     77
+    ],
+    "one_liner": "Каталог премиальных и 3D-экранов Индонезии, Сингапура, Малайзии и Таиланда: реальные сроки согласований, диапазоны цен медиа и продакшна (смета «анаморф на экран X»), RFQ и превью «ваш ролик на этом экране». Деньги — через заказы студии и платные лиды или приоритетный листинг для владельцев.",
+    "type": "AB",
+    "format": "Сайт-каталог + калькулятор сметы + RFQ-форма. Лиды в студию основателя, платный приоритетный листинг или оплата за лид для владельцев экранов (оценка $100–300)",
+    "buyer_and_pain": "Бренды и агентства (включая AI-компании, которые пошли в наружку), планирующие 3D-кампанию в ЮВА. Где экраны, сколько стоят и сколько длится согласование — непонятно, тарифы закрыты. Владельцам нужен спрос.",
+    "why_it_wins": "В Азии >98% DOOH продаётся напрямую, поэтому данные «с земли» и отношения — ров, который программатик не размывает. Одна сделка студии ($8 тыс.+) окупает год работы каталога. КАНАЛ: владельцы экранов сами заинтересованы в листинге и дают данные; бренды приходят по брендовым запросам конкретных экранов. ПЕРВЫЕ 10: 5 владельцев, с которыми студия уже работает, получают бесплатный листинг и превью в обмен на данные; 5 агентств из контактов студии получают смету и превью для текущих питчей.",
+    "key_evidence": "Programmatic в APAC — 1,7% DOOH: https://www.worldooh.org/news/woo-global-pdooh-spend-study-2025 (2026-09). KL: согласования 7–10 рабочих дней, CPM RM30–160 — https://www.adquick.com/dooh-advertising/kuala-lumpur-my (2026). Джакарта, Sudirman: Rp 200–500 млн в месяц — https://transads.id/berapa-harga-iklan-videotron-jakarta-panduan-lengkap-tarif-lokasi-premium-dan-cara-memilih-media-yang-tepat-bagian-1/ (2025). ION Orchard Grand Façade — 189 м² с поддержкой 3D: https://www.jcdecaux.com.sg/news-and-press-releases/jcdecaux-singapore-and-ion-orchard-unveils-brand-new-ion-grand-facade-led. Конкурент FOOH.com удвоил каталог до 138–139 экранов в 63 городах: https://fooh.com/directories/screens (2026-09).",
+    "main_risk": "FOOH.com может закрыть ЮВА быстрее. Премиальных сделок — десятки в год на страну. Полевые данные требуют времени студии. SEO-трафик маленький: DOOH-справочники вне топ-1M CrUX. Как самостоятельный продукт выручка около нуля — только в связке со студией.",
+    "prelim_scores": {
+     "expertise": 4,
+     "demand": 3,
+     "freeness": 2,
+     "clone": 4,
+     "platform": 5,
+     "speed": 4,
+     "support": 3,
+     "unit_econ": 4,
+     "channels": 3,
+     "payments_reg": 4,
+     "viability": 3
+    }
+   },
+   {
+    "name": "Screen Spec Packs: данные реальных 3D-экранов как дополнение к Naked-Eye 3D и LED Architect",
+    "is_new": false,
+    "candidate_refs": [
+     61,
+     74,
+     34,
+     16
+    ],
+    "one_liner": "Платные пакеты по конкретным 3D-экранам: геометрия граней, pixel map, точка обзора и фото с неё, готовые сцены для AE, Blender и C4D, кодеки, сроки модерации. Продаются как пресеты поверх существующих инструментов aescripts, а не как новый плагин.",
+    "type": "A",
+    "format": "$19–49 за экран, $99–199 за город (оценка). Свой сайт + предложение автору Naked-Eye 3D о бандле или партнёрской продаже",
+    "buyer_and_pain": "Фрилансеры (Fiverr, $70–600 за анаморф) и студии среднего сегмента, которые впервые делают анаморф под конкретный экран. Владелец присылает PDF с ошибками или ничего, неверная точка обзора ломает иллюзию объёма.",
+    "why_it_wins": "Кодовый слой уже занят (Naked-Eye 3D с 05.2026, LED Architect). Защищаем только полевой слой: замеры, фото с точки обзора и доступ к владельцам через студию основателя, а это кодом не копируется. КАНАЛ: пользователи Naked-Eye 3D через партнёрство с автором, продавцы анаморфа на Fiverr и Upwork, сообщество FOOH.com. ПЕРВЫЕ 10: пакет по 3–5 экранам ЮВА, где студия уже работает, — DM 20 продавцам анаморфа на Fiverr и автору Naked-Eye 3D как бонус к его продукту.",
+    "key_evidence": "aescripts выпустил Naked-Eye 3D (подбор камеры и развёртка LED под анаморф): https://www.facebook.com/aescripts/videos/new-naked-eye-3d-create-camera-matched-anamorphic-naked-eye-3d-billboard-scenes-/1994006781204015/ (2026-05). LED Architect продаёт пресеты реальных поставщиков, floating-лицензия $99,99: https://aescripts.com/led-architect/ (2025–2026). FOOH.com даёт базовые спеки 139 экранов, но не готовые сцены: https://fooh.com/directories/screens (2026-09). В OpenOOH нет полей 3D и точки обзора: https://github.com/openooh/venue-taxonomy (2026-09-24). 7+ гигов по анаморфу за $70–600: https://www.fiverr.com/gigs/3d-anamorphic (2026-09). Видеомодели ограничены 21:9, а у COEX ≈4:1 (Magnific MCP, 2026-09-26).",
+    "main_risk": "Маленький TAM: 500–1 500 3D-экранов вне Китая, выручка ~$5–30 тыс. в год (оценка). Спорно публиковать спецификации без согласия владельцев. FOOH.com или автор Naked-Eye 3D могут добавить сцены сами. Продаж spec-паков нигде не найдено.",
+    "prelim_scores": {
+     "expertise": 4,
+     "demand": 2,
+     "freeness": 4,
+     "clone": 4,
+     "platform": 5,
+     "speed": 3,
+     "support": 3,
+     "unit_econ": 2,
+     "channels": 3,
+     "payments_reg": 5,
+     "viability": 3
+    }
+   },
+   {
+    "name": "Variant Factory Lite: локальный конвейер версий из AE по таблице",
+    "is_new": false,
+    "candidate_refs": [
+     36,
+     97,
+     28,
+     18
+    ],
+    "one_liner": "Панель AE: Google Sheet или CSV → мастер-шаблон → автоматические 9:16, 4:5, 1:1 и 16:9 с safe zones площадок → пакетный рендер через aerender с QC-отчётом. В комплекте готовые рекламные шаблоны-системы.",
+    "type": "A",
+    "format": "UXP-панель на aescripts: $99–149 разово или $15–19 в месяц (оценка), студийная лицензия",
+    "buyer_and_pain": "Фрилансеры и студии из 1–10 человек, которым нужно 20–200 вариантов на кампанию. Plainly за $69–649 в месяц для них дорог и избыточен, а скрипт за $15 задачу целиком не решает.",
+    "why_it_wins": "За эту боль уже платят подпиской (Plainly, Nexrender, Templater), а алгоритмы Meta требуют разнообразия креативов. Нижний сегмент без облака и поминутной оплаты не закрыт. Ров — не код, а набор шаблонов-систем от практика. КАНАЛ: aescripts + база Oblique + рассылка Motion Rates Index. ПЕРВЫЕ 10: бета для 20 студий из базы Oblique со скидкой за кейс, затем запуск на aescripts с видео «200 версий за вечер».",
+    "key_evidence": "Plainly $69–649 в месяц: https://www.capterra.com/p/10026817/Plainly/ (2026). Nexrender от €99 в месяц: https://nexrender.com/pricing (2026). Templater от $67,50 (поток demand_scout, 2026). Bannerbear: ~$991 тыс. выручки, 596 клиентов, ~7 человек (2024, вторичный разбор). У Meta 15 млн GenAI-объявлений в месяц (поток motion_industry). Агентный AI Assistant в AE в бете: https://www.cgchannel.com/2026/09/adobe-releases-after-effects-26-5-and-new-ai-assistant-in-beta/ (2026-09).",
+    "main_risk": "AI Assistant в AE частично закроет «сделай 9:16» (оценка ~40% за 24 месяца). Есть бесплатное open-source-ядро nexrender. Поддержка разных машин и версий AE может выйти за 4 ч/нед.",
+    "prelim_scores": {
+     "expertise": 5,
+     "demand": 4,
+     "freeness": 2,
+     "clone": 2,
+     "platform": 2,
+     "speed": 3,
+     "support": 2,
+     "unit_econ": 4,
+     "channels": 4,
+     "payments_reg": 5,
+     "viability": 2
+    }
+   },
+   {
+    "name": "Fan & IP 3D Cheering Ads: 3D-«поздравления» с фиксированной ценой под конкретные экраны",
+    "is_new": false,
+    "candidate_refs": [
+     63
+    ],
+    "one_liner": "Продуктовая линейка 3D-анаморф-роликов с фиксированной ценой под конкретные экраны для фанбаз айдолов и владельцев IP: дни рождения, камбэки, юбилеи персонажей. Собирают 3D-ассистенты студии из библиотеки шаблонов сцен.",
+    "type": "A",
+    "format": "Продуктизированная услуга $500–2 000 за ролик без медиа (оценка). Лендинги на японском, корейском, тайском и бахаса, оплата через MoR или Stripe",
+    "buyer_and_pain": "Организаторы фанатских проектов уже покупают слоты на экранах. Студийный кастом за $8–25 тыс. им недоступен, а Fiverr не знает требований конкретного оператора и модерации.",
+    "why_it_wins": "Плательщик существует, и оператор уже упаковал его в продукт: jeki продаёт Cheering AD на Cross Shinjuku Vision. Ров — шаблоны под конкретные экраны, знание модерации операторов и библиотека сцен. КАНАЛ: программы фан-рекламы операторов (стать рекомендуемым подрядчиком — они сами приводят заказчиков) и организаторы фанбаз в X. ПЕРВЫЕ 10: предложить операторам с фан-программами пакет «креатив под ваш экран за 7 дней»; параллельно 20 DM организаторам ближайших дней рождения айдолов в Бангкоке, Джакарте и Токио.",
+    "key_evidence": "Продукт jeki «Cheering AD» для Cross Shinjuku Vision: https://cheering-ad.jeki.co.jp/en/products/cross-shinjuku-vision (2026). Сетка ротации и доплаты за приём контента Cross Shinjuku — sales sheet https://shinjuku.xspace.tokyo/wp-content/uploads/2025/07/%E3%80%90%E3%82%AF%E3%83%AD%E3%82%B9%E6%96%B0%E5%AE%BF%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3%E3%80%91%E5%AA%92%E4%BD%93%E8%B3%87%E6%96%99-20250702%E4%BF%AE%E6%AD%A3.pdf (2025-07). Нижний якорь цены: гиг «naked-eye 3D для углового LED» за $95 — https://www.fiverr.com/opreston/create-3d-anamorphic-illusion-for-corner-led-screen (2026-09). Объём рынка — нет данных.",
+    "main_risk": "Права на изображения айдолов и персонажей требуют одобрения агентства. Языковой барьер. Ручная работа ложится на студию, а поддержка превышает 2–4 ч/нед. До запуска нужны 5–10 интервью.",
+    "prelim_scores": {
+     "expertise": 4,
+     "demand": 3,
+     "freeness": 4,
+     "clone": 3,
+     "platform": 5,
+     "speed": 4,
+     "support": 2,
+     "unit_econ": 3,
+     "channels": 3,
+     "payments_reg": 3,
+     "viability": 3
+    }
+   },
+   {
+    "name": "CrewRate: калькуляторы ставок кино-, ТВ-, рекламных и моушн-фрилансеров",
+    "is_new": false,
+    "candidate_refs": [
+     25,
+     27
+    ],
+    "one_liner": "Дневная ставка → переработки, выходные, holiday pay и kit fee по рейт-картам → сумма после налогов (PAYE, sole trader, Ltd) для UK, IE, AU и NZ. PDF-расчётка для инвойса и виджет для гильдий и киношкол.",
+    "type": "AB",
+    "format": "SEO-сайт + PDF-экспорт + embed + рассылка к изменениям ставок и налогов. Реклама, лиды бухгалтерам и страховщикам для фрилансеров",
+    "buyer_and_pain": "Фрилансеры площадки и постпродакшна (моушн, 3D, монтаж, операторы, гафферы) и продюсеры. Рейт-карты лежат в PDF, правила переработок сложные, непонятно, что выставить и что останется после налогов.",
+    "why_it_wins": "Профессиональный подтип калькуляторов растёт, а generic тонет. Правила съёмочных договоров слишком нишевые для generative UI Google. Основатель свой в креативном сообществе. КАНАЛ: органика + сообщество + embed. ПЕРВЫЕ 10: пользователи из r/MotionDesign и профильных групп, где основатель активен, и 10 писем киношколам и гильдиям с бесплатным виджетом. Платят рекламодатели и партнёры-бухгалтеры.",
+    "key_evidence": "CrUX (https://github.com/zakird/crux-top-lists, 2026-08): contractorcalculator.co.uk стабильно в топ-50k GB (01.2025–08.2026); teacherpaycalculator.com 1M → 100k (10.2025 → 05.2026); policetakehomepay.co.uk — новичок в топ-1M GB. Generic-калькуляторы в GB топ-100k: 61 → 44. Иллюстративные ставки моушн в UK — £300–1 100 в день: https://github.com/ayaturrehman/solopad.io (2026-09-21). Специализированного калькулятора съёмочных рейт-карт не найдено (поток seo_utilities, 2026-09-26).",
+    "main_risk": "Маленькая аудитория и умеренный RPM вне финансовой тематики. Ответственность за ошибки. Права на использование рейт-карт не проверены. После первых успехов придут клоны.",
+    "prelim_scores": {
+     "expertise": 3,
+     "demand": 3,
+     "freeness": 4,
+     "clone": 3,
+     "platform": 3,
+     "speed": 4,
+     "support": 4,
+     "unit_econ": 3,
+     "channels": 3,
+     "payments_reg": 3,
+     "viability": 3
+    }
+   },
+   {
+    "name": "Motion Rates Index + рассылка: собственный канал портфеля",
+    "is_new": false,
+    "candidate_refs": [
+     95,
+     40
+    ],
+    "one_liner": "Ежегодный открытый опрос ставок моушн-дизайнеров (за секунду, за версию, за AI-гибридный шот, по странам), калькулятор и еженедельная рассылка. Это актив, который становится стартовой аудиторией каждого A-продукта портфеля.",
+    "type": "AB",
+    "format": "Сайт с калькулятором и формой опроса. Бесплатный отчёт за email, платный PDF-разбор для студий $19–49 (оценка), спонсорство авторов плагинов и шаблонов, аффилиаты aescripts",
+    "buyer_and_pain": "Фрилансеры и студии не понимают, как считать работу при разбросе от «$10 за интро» до «$150 за секунду». Спонсорам — авторам плагинов и шаблонов — нужен доступ к этой аудитории.",
+    "why_it_wins": "Главный урок Oblique: без своего канала окно в 2–6 недель до клона проходит впустую. Email-лист моушн-дизайнеров не контролируют ни Google, ни aescripts, а данные опроса копятся год к году и не копируются. КАНАЛ: база Oblique, r/MotionDesign, r/AfterEffects и авторы-партнёры. ПЕРВЫЕ 100 респондентов — база Oblique и сабреддиты. ПЕРВЫЕ ПЛАТЯЩИЕ — 3–5 спонсоров из авторов aescripts, которым нужна эта аудитория.",
+    "key_evidence": "Опрос Creative Boom 2026: 882 ответа, 47% самозанятых зарабатывают меньше £30 тыс. — https://www.creativeboom.com/news/the-state-of-the-creative-industry-2026-what-our-survey-tells-us-about-money-burnout-and-ai/ (2026-06-29). Гайд School of Motion 2026: $80–110 тыс., AI-навыки дают +15–50% — https://schoolofmotion.com/blog/motion-design-salaries-in-2026-your-complete-guide-to-what-you-can-earn-and-how-to-earn-more (2026). «От $10 за анимацию» в r/VideoEditors_forhire (2026-08-03, поток motion_industry). У Oblique за полгода стало 6+ конкурентов (поток adobe_platforms).",
+    "main_risk": "Слабая прямая монетизация. Нужна критическая масса ответов. SoM публикует бесплатный гайд. Опрос и рассылка требуют регулярного времени.",
+    "prelim_scores": {
+     "expertise": 4,
+     "demand": 2,
+     "freeness": 3,
+     "clone": 4,
+     "platform": 4,
+     "speed": 4,
+     "support": 3,
+     "unit_econ": 2,
+     "channels": 3,
+     "payments_reg": 4,
+     "viability": 3
+    }
+   },
+   {
+    "name": "Animated Keepsake Module: white-label для арт-фандрайзеров и архивов детского творчества",
+    "is_new": false,
+    "candidate_refs": [
+     100
+    ],
+    "one_liner": "API или виджет «оживить рисунок» с AE-шаблонами, QR-страницей и печатным SKU для компаний, у которых уже есть поток оцифрованных детских работ и оплата от родителей.",
+    "type": "AB",
+    "format": "B2B2C API + админка. Оплата $1–3 за ролик или revenue share (оценка), библиотека сезонных шаблонов, B2B-инвойс",
+    "buyer_and_pain": "Продуктовые команды Artsonia, Square 1 Art, Original Works, Art to Remember, Artkive, Plum Print и Chatbooks. Им нужен маржинальный цифровой SKU к сезону без экспертизы в генеративном видео и детской приватности.",
+    "why_it_wins": "Максимальный рычаг дистрибуции без рекламы: один контракт открывает десятки тысяч школ. Ров — контракт, интеграция, соответствие требованиям к детским данным и качество «рисунок остаётся рисунком». КАНАЛ: прямые письма продуктовым руководителям 5–10 компаний с демо. Кейс конверсии из пилота «Ожившего вернисажа» — главный аргумент. ПЕРВЫЕ «10 клиентов» здесь — 1–2 контракта; начать с 3–5 интервью.",
+    "key_evidence": "Поток работ у покупателей: Artsonia — 138,7 млн работ и 50 000+ школ (https://www.artsonia.com/about/, 2026), Art to Remember — 9,2 млн работ (https://atr.arttoremember.com/fundraisers/). Сезонные пики shop.square1art.com — до top-50k US (CrUX, https://github.com/zakird/crux-top-lists, 2025–2026). У горизонтальных API (fal, Replicate, Higgsfield, Magnific) детского пресета нет (2026-09-26). Нижняя граница цены — потребительский DrawToLife за $34,99 в год (поток kids_market_plus).",
+    "main_risk": "Покупателей всего 5–10, и каждый может собрать то же сам за месяц с AI-кодингом. Длинные B2B-циклы. Интеграции и SLA не укладываются в 2–4 ч/нед. Прямого спроса нет.",
+    "prelim_scores": {
+     "expertise": 4,
+     "demand": 2,
+     "freeness": 4,
+     "clone": 2,
+     "platform": 4,
+     "speed": 3,
+     "support": 2,
+     "unit_econ": 3,
+     "channels": 2,
+     "payments_reg": 5,
+     "viability": 2
+    }
+   }
+  ],
+  "rejections": [
+   {
+    "name": "Потребительские приложения «рисунок ребёнка → видео» (#22, #82, #88)",
+    "reason": "Около 30 конкурентов (DrawToLife $4,99/мес, Doodle Dreams $3,75/мес), и ни один не в CrUX top-1M. Google Photos, TikTok AI Alive и Gemini дают анимацию бесплатно. Платный CAC $83–250 против LTV ~$30. Apple 4.3 запрещает клоны под разные поводы, Polar запрещает продукты для несовершеннолетних. Без институционального канала первые 100 платящих можно получить только за рекламу."
+   },
+   {
+    "name": "White-label «реальный ребёнок + рисунок» для детских фотографов (#23, #84)",
+    "reason": "OpenAI, Veo и Seedance блокируют детей. Self-host перекладывает CSAM-модерацию и ответственность по COPPA/AADC на основателя. В 2026 году ужесточение уже идёт: TikTok платит $400 млн по COPPA, Meta за три дня выключила Muse Image. Для 2–4 ч/нед такой риск несовместим."
+   },
+   {
+    "name": "AI-панели генерации в AE, AE Agent Connector, Oblique Agent Mode (#11, #55, #54)",
+    "reason": "Это ровно то, что Adobe строит на глазах: агентный AI Assistant в AE 26.5, Generative Media в Premiere, MCP с Anthropic. Уже есть бесплатные панели Magnific, Higgsfield и Runway и 72 бесплатных AE-MCP. API моделей живут 12–18 месяцев (Sora API закрыт 2026-09-24), поддержка коннекторов съест всё время. Готовность платить за MCP-слой не доказана."
+   },
+   {
+    "name": "AI Plate Finishing Kit / AI Plate Prep (#4, #10, #37, #96)",
+    "reason": "Канал (aescripts) есть, но платформа поглощает функцию. Adobe купила Topaz (2026-06-25) и встраивает Object Matte и Unmult, агрегаторы продают deflicker, upscale и HDR за кредиты, а модели движутся к чистому 10-битному выходу. Горизонт 12–18 месяцев, пресеты клонируются."
+   },
+   {
+    "name": "Трекеры цен и калькуляторы стоимости AI-видео (#1, #7, #15, #39, #72)",
+    "reason": "Никто не платит за эти данные: Artificial Analysis, LiteLLM, costgoat, buildmvpfast и eesel бесплатны, а costgoat вообще вне топ-1M. Выдачу с «универсальным ответом» забирает AIO. Аффилиатки для UK Ltd с Payoneer не проверены. Парсеры ломаются, поддержка выходит за 4 ч/нед."
+   },
+   {
+    "name": "Production Yield Benchmark (#2, #8)",
+    "reason": "Расходы на генерацию $200–2 700 в месяц идут до первой выручки. Платящего покупателя бенчмарка нет. ToS агрегаторов могут запрещать публикацию результатов, а AA может добавить такой рейтинг бесплатно."
+   },
+   {
+    "name": "Потребительская «память»: Heirloom, Holiday Living Card, Pet Legacy (#87, #89, #90)",
+    "reason": "Реставрацию и анимацию бесплатно дают iOS 27 Enhance, Google Photos и Remix. Нужен платный CAC или бюджет на Etsy Ads, Paddle запрещает AI-генерацию. 70–80% выручки приходится на 8–10 недель сезона, и одного сезона мало для проверки. Жизнеспособен только B2B2C-вариант через похоронные дома, фотографов или кремации животных — последний канал не проверен."
+   },
+   {
+    "name": "FOOH-киты (#65, #80) и DOOH-калькуляторы стоимости ЮВА/ME (#79)",
+    "reason": "Рынок заказного FOOH — ~$4–15 млн в год (оценка), его съедают AI-генераторы «billboard ad», а в ЕС такой ролик требует маркировки как deepfake. SEO-ниша «harga sewa videotron» уже занята самими операторами на бахаса — минимум 6 гайдов; в Дубае то же."
+   },
+   {
+    "name": "SpecCheck / Delivery QC SaaS для соцсетей (#92, #57, #28)",
+    "reason": "Платформы сами кадрируют и перекодируют загрузки, поэтому готовность фрилансеров платить за QC низкая. Текстовые спецификации («tiktok video size») забирает AIO и generative UI. Adobe Media Encoder и Frame.io могут добавить проверки. Жизнеспособна только DOOH-часть, если платит владелец экрана (см. Screen Owner Intake Kit)."
+   },
+   {
+    "name": "AI Disclosure / Model License Kit и Take Ledger как SaaS (#3, #12, #42, #93, #94)",
+    "reason": "Регуляторный ров реален (ст. 50 AI Act, NY, лицензия H3), но нет ни доказанного плательщика, ни канала к первым 100 клиентам. C2PA и Content Credentials Adobe даёт бесплатно, студии ведут учёт в Notion и таблицах. Интеграции с API вендоров живут 12–18 месяцев. Основатель не юрист, ответственность за ошибку ложится на него. Вернуться, если 10 интервью с продюсерами агентств UK/EU покажут готовность платить."
+   },
+   {
+    "name": "Figma Motion Presets + AE twin (#71) и Early-ecosystem packs для Cavalry/Autograph/Affinity (#17)",
+    "reason": "Figma Community не одобряет новых платных продавцов, а сама расширяет встроенные пресеты и навык figma-use-motion. Пользователи софта, который только что стал бесплатным, плохо платят, а Canva может раздавать ассеты в Pro."
+   },
+   {
+    "name": "Brand Motion Skills, Brand Motion System, Versioning Desk как продукты (#58, #98, #97)",
+    "reason": "Это услуги с кастомной работой и длинным B2B-циклом, в 2–4 ч/нед они не укладываются. Текст skill копируется. Их место — выручка студии и источник кейсов, а не портфель автономных продуктов."
+   },
+   {
+    "name": "Мета-инструменты для инди: MoR & Payout Finder, Age & Store Policy Tracker, Clone Radar, Creative MCP Index, скан безопасности вайбкода (#41, #43, #67, #59, #68)",
+    "reason": "Выдачу по этим запросам занимают сами MoR и вендоры (Dodo, Creem). Инди слабо готовы платить, каталоги MCP бесплатны и куплены крупными игроками (Smithery → Arcade). Экспертиза основателя тут не даёт преимущества. Clone Radar оставить внутренним инструментом."
+   },
+   {
+    "name": "Lottie Preflight и Sticker/Emoji Lottie Kit (#38, #73)",
+    "reason": "Чек $15–29 при бесплатных Bodymovin, LottieFiles и tgskit. Figma Motion и LottieFiles закрывают сценарий. Telegram Stars выводятся в TON — для UK Ltd это операционно дорого."
+   },
+   {
+    "name": "Trend Radar (#91)",
+    "reason": "Тренды живут 2–6 недель, клики забирают AI Overviews и СМИ, защита — только скорость. Канал к платящим отсутствует: это разве что источник трафика для других продуктов."
+   }
+  ],
+  "portfolio_note": "Я бы строил портфель по принципу «сначала канал, потом код»: первые продукты окупаются через уже существующие каналы и одновременно строят собственный. Q4 2026: Oblique 2 UXP к бете UXP в AE — урожай с базы покупателей и aescripts. Параллельно, на конвейере друга, 1–2 профессиональных калькулятора оплаты: быстрые деньги с минимальной поддержкой. С того же квартала запускается Motion Rates Index + рассылка, чтобы каждый следующий A-продукт стартовал с готовой аудиторией, а не с нуля. Q1 2027: Booth Motion Packs к свадебному сезону — самый быстрый запуск без AI-рисков и запретов Paddle. Там же весенний пилот «Ожившего вернисажа» в 2–3 международных школах Бали. Если конверсия родителей подтвердится, осенью 2027 масштабировать через международные школы ЮВА и идти с кейсом к фандрайзерам (white-label). 2027 год, вокруг студии: одна общая база экранов питает Atlas (лиды), Screen Owner Intake Kit (платит владелец) и 3D Loop Library (годовые лицензии). Это единственный кластер, где ров — физический мир и отношения, и его масштабируют 3D-ассистенты, а не часы основателя. 2027–2028, ближе к отключению CEP: UXP Successors — выкуп осиротевших плагинов, пока авторы не решили задачу сами. Tribute Studio брать только если B2B-пилот с 10 похоронными домами UK даст повторные заказы. Обязательные условия для всего портфеля: два MoR и настоящий UK-счёт помимо Payoneer, а для каждого нового продукта — названный канал к первым 10 платящим до начала разработки."
+ }
+]
